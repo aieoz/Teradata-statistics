@@ -1,0 +1,21 @@
+{
+    "database_host": "192.168.8.117",
+    "database_user": "dbc",
+    "beggining": "2020-01-01",
+    "analysis_database": "TDSP_ANALYSIS",
+    "default_period": 30,
+    "analysis": [
+        {
+            "name": "Tables usage",
+            "description": "Measure total usage (updates, selects) of every table in database",
+            "short": "TU",
+            "enabled": true,
+            "default_databases": [
+                "movies"
+            ],
+            "default_tables": [
+                "movies.movies"
+            ]
+        }
+    ]
+}
