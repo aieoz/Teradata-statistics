@@ -1,0 +1,55 @@
+2020-05-13 22:55:12,894 - teradata.udaexec - INFO - Initializing UdaExec...
+2020-05-13 22:55:12,895 - teradata.udaexec - INFO - Reading config files: ['/etc/udaexec.ini: Not Found', '/home/kamil/udaexec.ini: Not Found', '/home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/udaexec.ini: Not Found']
+2020-05-13 22:55:12,895 - teradata.udaexec - INFO - Found run number file: "/home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/.runNumber"
+2020-05-13 22:55:12,895 - teradata.udaexec - INFO - Cleaning up log files older than 90 days.
+2020-05-13 22:55:12,895 - teradata.udaexec - INFO - Removed 0 log files.
+2020-05-13 22:55:12,907 - teradata.udaexec - INFO - Checkpoint file not found: /home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/SQL shell.checkpoint
+2020-05-13 22:55:12,908 - teradata.udaexec - INFO - No previous checkpoint found, executing from beginning...
+2020-05-13 22:55:12,908 - teradata.udaexec - INFO - Execution Details:
+/********************************************************************************
+ * Application Name: SQL shell
+ *          Version: 1.0
+ *       Run Number: 20200513225512-2
+ *             Host: kamil-MS-7A34
+ *         Platform: Linux-4.15.0-91-generic-x86_64-with-Ubuntu-18.04-bionic
+ *          OS User: kamil
+ *   Python Version: 3.6.9
+ *  Python Compiler: GCC 8.4.0
+ *     Python Build: ('default', 'Apr 18 2020 01:56:04')
+ *  UdaExec Version: 15.10.0.21
+ *     Program Name: script.py
+ *      Working Dir: /home/kamil/Pulpit/Teradata/Repo/Teradata-statistics
+ *      Git Version: git version 2.17.1
+ *     Git Revision: 181db07
+ *        Git Dirty: True [ M libs/analysis/daily_usage.py, M libs/utils.py, M script.py, M settings.json,?? .runNumber,?? logs/]
+ *          Log Dir: /home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/logs
+ *         Log File: /home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/logs/SQL shell.20200513225512-2.log
+ *     Config Files: ['/etc/udaexec.ini: Not Found', '/home/kamil/udaexec.ini: Not Found', '/home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/udaexec.ini: Not Found']
+ *      Query Bands: ApplicationName=SQL shell;Version=1.0;JobID=20200513225512-2;ClientUser=kamil;Production=False;udaAppLogFile=/home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/logs/SQL shell.20200513225512-2.log;gitRevision=181db07;gitDirty=True;UtilityName=PyTd;UtilityVersion=15.10.0.21
+********************************************************************************/
+2020-05-13 22:55:12,909 - teradata.udaexec - INFO - Creating connection: {'method': 'odbc', 'system': '192.168.8.110', 'username': 'dbc', 'password': 'XXXXXX'}
+2020-05-13 22:55:12,909 - teradata.tdodbc - INFO - Loading ODBC Library: /opt/teradata/client/ODBC_64/lib/libodbc.so
+2020-05-13 22:55:12,912 - teradata.tdodbc - INFO - Available drivers: Teradata Database ODBC Driver 16.20, 
+2020-05-13 22:55:38,359 - teradata.udaexec - ERROR - Unable to create connection: {'method': 'odbc', 'system': '192.168.8.110', 'username': 'dbc', 'password': 'XXXXXX'}
+Traceback (most recent call last):
+  File "/home/kamil/Pulpit/Teradata/praca/pythonowe/virtualenv/teradata/lib/python3.6/site-packages/teradata/udaexec.py", line 183, in connect
+    **args))
+  File "/home/kamil/Pulpit/Teradata/praca/pythonowe/virtualenv/teradata/lib/python3.6/site-packages/teradata/tdodbc.py", line 454, in __init__
+    checkStatus(rc, hDbc=self.hDbc, method="SQLDriverConnectW")
+  File "/home/kamil/Pulpit/Teradata/praca/pythonowe/virtualenv/teradata/lib/python3.6/site-packages/teradata/tdodbc.py", line 231, in checkStatus
+    raise DatabaseError(i[2], u"[{}] {}".format(i[0], msg), i[0])
+teradata.api.DatabaseError: (434, '[HY000] [Teradata][socket error] (434) WSA E TimedOut: Lost socket connection to the Teradata server')
+2020-05-13 22:55:38,360 - teradata.udaexec - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "script.py", line 58, in <module>
+    with libs.utils.create_session(settings["database_user"], settings["password"], settings["database_host"]) as session:
+  File "/home/kamil/Pulpit/Teradata/Repo/Teradata-statistics/libs/utils.py", line 19, in create_session
+    connection = udaExec.connect(method="odbc", system=host,username=username,password=password)
+  File "/home/kamil/Pulpit/Teradata/praca/pythonowe/virtualenv/teradata/lib/python3.6/site-packages/teradata/udaexec.py", line 183, in connect
+    **args))
+  File "/home/kamil/Pulpit/Teradata/praca/pythonowe/virtualenv/teradata/lib/python3.6/site-packages/teradata/tdodbc.py", line 454, in __init__
+    checkStatus(rc, hDbc=self.hDbc, method="SQLDriverConnectW")
+  File "/home/kamil/Pulpit/Teradata/praca/pythonowe/virtualenv/teradata/lib/python3.6/site-packages/teradata/tdodbc.py", line 231, in checkStatus
+    raise DatabaseError(i[2], u"[{}] {}".format(i[0], msg), i[0])
+teradata.api.DatabaseError: (434, '[HY000] [Teradata][socket error] (434) WSA E TimedOut: Lost socket connection to the Teradata server')
+2020-05-13 22:55:38,366 - teradata.udaexec - INFO - UdaExec exiting.

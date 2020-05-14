@@ -3,10 +3,12 @@ CREATE DATABASE TDSP_ANALYSIS FROM DBC;
 
 
 CREATE TABLE TDSP_ANALYSIS.daily_usage (
-    measure_date DATE NOT NULL,
-    complete     BYTEINT,
-    measure_hour INT,
-    uses_avg     DECIMAL(12, 2)
+    measure_date    DATE NOT NULL,
+    measure_hour    INT,
+    table_name      VARCHAR(100) NOT NULL,
+    database_name   VARCHAR(100) NOT NULL,
+    complete        BYTEINT,
+    uses_total      DECIMAL(12, 2)
 );
 
 

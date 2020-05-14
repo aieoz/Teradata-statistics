@@ -1,0 +1,180 @@
+{
+    "operation": "Daily usage",
+    "begin": "2020-04-14",
+    "end": "2020-05-14",
+    "tables": [
+        {
+            "table_name": "movies.movies",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 0.0,
+                    "uses_average": 0.0,
+                    "uses_max": 0.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 2394.0,
+                    "uses_average": 77.2258064516129,
+                    "uses_max": 2394.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 1606.0,
+                    "uses_average": 51.806451612903224,
+                    "uses_max": 1606.0
+                }
+            ]
+        }
+    ]
+}

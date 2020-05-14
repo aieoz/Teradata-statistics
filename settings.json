@@ -1,5 +1,5 @@
 {
-    "database_host": "192.168.8.117",
+    "database_host": "192.168.0.110",
     "database_user": "dbc",
     "beggining": "2020-01-01",
     "analysis_database": "TDSP_ANALYSIS",
@@ -8,11 +8,19 @@
         {
             "name": "Tables usage",
             "description": "Measure total usage (updates, selects) of every table in database",
+            "target": "target/tables_usage.json",
             "short": "TU",
             "enabled": true,
             "default_databases": [
                 "movies"
-            ],
+            ]
+        },
+        {
+            "name": "Daily usage",
+            "description": "Measure average usage (updates, selects) of single table during day",
+            "short": "DU",
+            "target": "target/daily_usage.json",
+            "enabled": true,
             "default_tables": [
                 "movies.movies"
             ]

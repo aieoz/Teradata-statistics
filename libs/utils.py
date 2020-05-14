@@ -3,6 +3,8 @@ import argparse
 import json
 import os
 import re
+import libs.analysis.daily_usage
+import pandas as pd
 
 from datetime import date, timedelta
 from dateutil.relativedelta import relativedelta
@@ -86,4 +88,24 @@ def read_settings():
     with open('settings.json') as settings_file:
         settings = json.load(settings_file)
     return settings
+
+def analysis_mapper(name, settings):
+    if name == "DU":
+        return libs.analysis.daily_usage.DailyUsage(settings)
+    else:
+        raise Exception("Unknown analysis " + name)
+
+def check_table_name(connection, table):
+    if not "." in table:
+        raise Exception("Invalid table name format: " + table)
+
+    database_name = table.split(".")[0]
+    table_name = table.split(".")[1]
     
+    SQL = "SELECT TableName FROM DBC.TablesV WHERE TableKind = 'T' AND DataBaseName='" + database_name + "'"
+
+    tables = pd.read_sql(SQL,connection)
+    tables = [t[0] for t in tables.values]
+    
+    if table_name not in tables:
+        raise Exception("Cannot find table: " + table)
