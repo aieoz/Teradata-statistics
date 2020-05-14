@@ -1,4 +1,4 @@
-MERGE INTO TDSP_ANALYSIS.daily_usage as daily_usage USING
+MERGE INTO $SYSTEM_DATABASE_NAME.daily_usage as daily_usage USING
 (
 
 	SELECT CAST('$DAY' AS DATE) AS t_measure_date, 
@@ -10,7 +10,7 @@ MERGE INTO TDSP_ANALYSIS.daily_usage as daily_usage USING
 	 ELSE 0
 	 END AS t_complete,
 	 ZEROIFNULL(LOGS.TOTAL) as t_uses_total
-	 FROM TDSP_ANALYSIS.system_hours AS SYSHOURS 
+	 FROM $SYSTEM_DATABASE_NAME.system_hours AS SYSHOURS 
 	LEFT OUTER JOIN 
 	(
 		SELECT EXTRACT(HOUR FROM CollectTimeStamp)

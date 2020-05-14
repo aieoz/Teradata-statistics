@@ -1,6 +1,6 @@
 import pandas as pd
 
-class DailyUsage:
+class TableUsage:
     
     def __init__(self, settings):
         self.connection = None
@@ -16,7 +16,7 @@ class DailyUsage:
     def days_missing(self, table_name, begin, end):
         self.test_connection()
 
-        file = open('sqls/daily_usage/daily_usage_missing.sql', mode="r")
+        file = open('sqls/table_usage/table_usage_missing.sql', mode="r")
         SQL = file.read()
         file.close()
 
@@ -49,7 +49,7 @@ class DailyUsage:
     def update(self, table, date):
         self.test_connection()
 
-        file = open('sqls/daily_usage/daily_usage.sql', mode="r")
+        file = open('sqls/table_usage/table_usage.sql', mode="r")
         SQL = file.read()
         file.close()
 
@@ -70,7 +70,7 @@ class DailyUsage:
         result["end"] = end
         result["tables"] = []
 
-        file = open('sqls/daily_usage/daily_usage_read.sql', mode="r")
+        file = open('sqls/table_usage/table_usage_read.sql', mode="r")
         SQL = file.read()
         file.close()
 
@@ -83,23 +83,21 @@ class DailyUsage:
                 "END": end
             }
             sSQL = self.replace_sql(SQL, settings)
+            # print(sSQL)
 
             table_results = {
                 "table_name": table_name,
                 "periods": []
             }
-            for hour_id in pd.read_sql(sSQL, self.connection).values:
-                hour = int(hour_id[0])
-                sum_uses = hour_id[1]
-                avg_uses = hour_id[2]
-                max_uses = hour_id[3]
+            for time_id in pd.read_sql(sSQL, self.connection).values:
+                period_begin = time_id[0]
+                period_end = time_id[1]
+                total_uses = int(time_id[2])
 
                 table_results["periods"].append({
-                    "period_begin": str(hour) + ":00",
-                    "period_end": str(hour + 1) + ":00",
-                    "uses_total": sum_uses,
-                    "uses_average": avg_uses,
-                    "uses_max": max_uses
+                    "period_begin": period_begin,
+                    "period_end": period_end,
+                    "uses": total_uses
                 })
             
             result["tables"].append(table_results)

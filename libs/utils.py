@@ -3,6 +3,7 @@ import argparse
 import json
 import os
 import re
+import libs.analysis.table_usage
 import libs.analysis.daily_usage
 import pandas as pd
 
@@ -92,6 +93,8 @@ def read_settings():
 def analysis_mapper(name, settings):
     if name == "DU":
         return libs.analysis.daily_usage.DailyUsage(settings)
+    elif name == "TU":
+        return libs.analysis.table_usage.TableUsage(settings)
     else:
         raise Exception("Unknown analysis " + name)
 

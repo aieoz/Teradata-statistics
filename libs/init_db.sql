@@ -11,6 +11,14 @@ CREATE TABLE TDSP_ANALYSIS.daily_usage (
     uses_total      DECIMAL(12, 2)
 );
 
+CREATE TABLE TDSP_ANALYSIS.table_usage (
+    measure_date    DATE NOT NULL,
+    table_name      VARCHAR(100) NOT NULL,
+    database_name   VARCHAR(100) NOT NULL,
+    complete        BYTEINT,
+    uses_total      DECIMAL(12, 2)
+);
+
 
 
 CREATE TABLE TDSP_ANALYSIS.system_hours (
