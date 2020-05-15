@@ -31,3 +31,35 @@ LEFT OUTER JOIN
 	AND ObjectDatabaseName='movies'
 	AND CollectTimeStamp=CAST('2020-04-14' AS DATE)
 ) AS LOGS ON DHOUR = HOUR_ID;
+
+-- JOIN 
+SELECT *
+	FROM 
+	(
+		SELECT QueryID, StatementGroup
+		FROM DBC.DBQLogTbl 
+		WHERE CollectTimeStamp
+		BETWEEN cast('2020-04-14' as DATE) 
+		AND cast('2020-05-14' as DATE)
+	) AS logs 
+	
+	JOIN 
+	
+	(
+		SELECT QueryID, CollectTimeStamp, ObjectTableName
+		FROM DBC.DBQLObjTbl 
+		WHERE ObjectType='Tab' 
+		AND LOWER(ObjectTableName)=LOWER('movies')
+		AND LOWER(ObjectDatabaseName)=LOWER('movies')
+		AND CollectTimeStamp
+            BETWEEN cast('2020-04-14' as DATE) 
+			AND cast('2020-05-14' as DATE) 
+	) AS objlogs ON objlogs.QueryID=logs.QueryID;
+
+
+-- Traffic union
+select traffic_type from (select 'select' as traffic_type) x
+union all
+select * from (select 'insert' as traffic_type) x
+union all
+select * from (select 'update' as traffic_type) x;

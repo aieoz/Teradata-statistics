@@ -5,6 +5,7 @@ import os
 import re
 import libs.analysis.table_usage
 import libs.analysis.daily_usage
+import libs.analysis.traffic_type
 import pandas as pd
 
 from datetime import date, timedelta
@@ -95,6 +96,8 @@ def analysis_mapper(name, settings):
         return libs.analysis.daily_usage.DailyUsage(settings)
     elif name == "TU":
         return libs.analysis.table_usage.TableUsage(settings)
+    elif name == "TT":
+        return libs.analysis.traffic_type.TrafficType(settings)
     else:
         raise Exception("Unknown analysis " + name)
 

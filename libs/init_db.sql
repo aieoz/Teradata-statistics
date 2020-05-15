@@ -19,7 +19,14 @@ CREATE TABLE TDSP_ANALYSIS.table_usage (
     uses_total      DECIMAL(12, 2)
 );
 
-
+CREATE TABLE TDSP_ANALYSIS.traffic_type (
+    measure_date    DATE NOT NULL,
+    table_name      VARCHAR(100) NOT NULL,
+    database_name   VARCHAR(100) NOT NULL,
+    complete        BYTEINT,
+    statement_group VARCHAR(30),
+    total           DECIMAL(12, 2)
+);
 
 CREATE TABLE TDSP_ANALYSIS.system_hours (
     HOUR_ID DECIMAL(2,0)

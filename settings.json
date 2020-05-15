@@ -1,5 +1,5 @@
 {
-    "database_host": "192.168.0.110",
+    "database_host": "192.168.0.104",
     "database_user": "dbc",
     "beggining": "2020-01-01",
     "analysis_database": "TDSP_ANALYSIS",
@@ -20,6 +20,16 @@
             "description": "Measure average usage (updates, selects) of single table during day",
             "short": "DU",
             "target": "target/daily_usage.json",
+            "enabled": true,
+            "default_tables": [
+                "movies.movies"
+            ]
+        },
+        {
+            "name": "Traffic type",
+            "description": "Joins/Inserts number",
+            "short": "TT",
+            "target": "target/traffic_type.json",
             "enabled": true,
             "default_tables": [
                 "movies.movies"
