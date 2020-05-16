@@ -11,29 +11,10 @@ MERGE INTO $SYSTEM_DATABASE_NAME.traffic_type as traffic_type USING
 			traffic_type AS t_statement_group,
 			ZEROIFNULL(t_total) as t_total
 	FROM (
-	SELECT 
-			StatementGroup,
-			COUNT(*) AS t_total
-			FROM 
-			(
-					SELECT QueryID, StatementGroup
-					FROM DBC.DBQLogTbl 
-					WHERE CollectTimeStamp=cast('$DAY' as DATE)
-			) AS logs 
-
-			JOIN 
-
-			(
-					SELECT QueryID, CollectTimeStamp, ObjectTableName
-					FROM DBC.DBQLObjTbl 
-					WHERE ObjectType='Tab' 
-					AND LOWER(ObjectTableName)=LOWER('$TABLE_NAME')
-					AND LOWER(ObjectDatabaseName)=LOWER('$DATABASE_NAME')
-					AND CollectTimeStamp=cast('$DAY' as DATE)
-			) AS objlogs ON objlogs.QueryID=logs.QueryID
-
-			GROUP BY StatementGroup
-	) AS ssss RIGHT OUTER JOIN 
+			SELECT StatementGroup, 
+				COUNT(QueryID) AS t_total 
+			FROM v_join GROUP BY StatementGroup
+	) AS volatile_reference RIGHT OUTER JOIN 
 	(
 		SELECT traffic_type from (
 		select traffic_type from (select 'Select' as traffic_type) x
@@ -42,7 +23,7 @@ MERGE INTO $SYSTEM_DATABASE_NAME.traffic_type as traffic_type USING
 			union all
 			select * from (select 'Insert' as traffic_type) x
 		) AS lbls
-	) AS sdasda ON traffic_type=StatementGroup
+	) AS operation_types ON traffic_type=StatementGroup
 
 
 ) AS t_

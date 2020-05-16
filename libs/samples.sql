@@ -63,3 +63,31 @@ union all
 select * from (select 'insert' as traffic_type) x
 union all
 select * from (select 'update' as traffic_type) x;
+
+-- Join to volatile
+INSERT INTO v_join (QueryID, StatementGroup, CollectTimeStamp, ObjectTablename)
+
+SELECT l_QueryID,
+	CollectTimeStamp as l_CollectTimeStamp,
+	StatementType AS l_StatementType,
+	ObjectTableName AS l_ObjectTableName FROM 
+	(
+
+		SELECT QueryID AS l_QueryID,
+			CollectTimeStamp, 
+			StatementType 
+		FROM DBC.DBQLogTbl 
+		WHERE CollectTimeStamp=CAST('2020-04-14' AS DATE)
+
+	) AS logs 
+	JOIN
+	(
+
+		SELECT QueryID AS o_QueryID, ObjectTableName, ObjectDatabaseName FROM DBC.DBQLObjTbl 
+		WHERE 
+		LOWER(ObjectTableName)=LOWER('movies')
+		AND LOWER(ObjectDatabaseName)=LOWER('movies')
+		AND CollectTimeStamp=CAST('2020-04-14' AS DATE)
+
+	)AS objsts
+ON o_QueryID=l_QueryID;

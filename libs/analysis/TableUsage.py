@@ -1,7 +1,7 @@
 import pandas as pd
-import libs.analysis.abstract_analysis
+import libs.analysis.AbstractAnalysis
 
-class TableUsage(libs.analysis.abstract_analysis.AbstractAnalysis):
+class TableUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
     system_table = "tables_usage"
 
     def __init__(self, settings):

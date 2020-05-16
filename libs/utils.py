@@ -3,9 +3,9 @@ import argparse
 import json
 import os
 import re
-import libs.analysis.table_usage
-import libs.analysis.daily_usage
-import libs.analysis.traffic_type
+import libs.analysis.TableUsage
+import libs.analysis.DailyUsage
+import libs.analysis.TrafficType
 import pandas as pd
 
 from datetime import date, timedelta
@@ -93,11 +93,11 @@ def read_settings():
 
 def analysis_mapper(name, settings):
     if name == "DU":
-        return libs.analysis.daily_usage.DailyUsage(settings)
+        return libs.analysis.DailyUsage.DailyUsage(settings)
     elif name == "TU":
-        return libs.analysis.table_usage.TableUsage(settings)
+        return libs.analysis.TableUsage.TableUsage(settings)
     elif name == "TT":
-        return libs.analysis.traffic_type.TrafficType(settings)
+        return libs.analysis.TrafficType.TrafficType(settings)
     else:
         raise Exception("Unknown analysis " + name)
 

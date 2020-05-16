@@ -13,8 +13,9 @@ class AbstractAnalysis:
     def test_connection(self):
         if self.connection == None:
             raise Exception("Database connection unavalible for Daily Usage")
-
-    def replace_sql(self, SQL, settings):
+    
+    @staticmethod
+    def replace_sql(SQL, settings):
 
         for setting in settings:
             SQL = SQL.replace("$" + setting, settings[setting])
@@ -47,3 +48,5 @@ class AbstractAnalysis:
             days.append(day[0])
 
         return days
+
+        
