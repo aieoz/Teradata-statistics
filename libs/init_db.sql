@@ -24,8 +24,12 @@ CREATE TABLE TDSP_ANALYSIS.traffic_type (
     table_name      VARCHAR(100) NOT NULL,
     database_name   VARCHAR(100) NOT NULL,
     complete        BYTEINT,
-    statement_group VARCHAR(30),
-    total           DECIMAL(12, 2)
+    scope           BYTEINT,
+    SelectOption INT,
+    InsertOption INT,
+    UpdateOption INT,
+    DeleteOption INT,
+    InsSelOption INT
 );
 
 CREATE TABLE TDSP_ANALYSIS.system_hours (

@@ -1,5 +1,5 @@
 {
-    "database_host": "192.168.0.104",
+    "database_host": "192.168.0.102",
     "database_user": "dbc",
     "beggining": "2020-01-01",
     "analysis_database": "TDSP_ANALYSIS",

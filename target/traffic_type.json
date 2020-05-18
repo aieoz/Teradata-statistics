@@ -1,190 +1,150 @@
 {
     "operation": "Daily usage",
-    "begin": "2020-03-16",
-    "end": "2020-05-16",
+    "begin": "2020-03-19",
+    "end": "2020-05-19",
     "tables": [
         {
             "table_name": "movies.movies",
             "periods": [
                 {
-                    "period_begin": "2020-03-17",
-                    "period_end": "2020-03-23",
-                    "uses": 0,
-                    "statement": "Select"
+                    "period_begin": "2020-05-13",
+                    "period_end": "2020-05-19",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-28",
-                    "period_end": "2020-05-04",
-                    "uses": 0,
-                    "statement": "Update"
+                    "period_begin": "2020-05-07",
+                    "period_end": "2020-05-13",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-10",
-                    "period_end": "2020-04-16",
-                    "uses": 750,
-                    "statement": "Select"
+                    "period_begin": "2020-04-25",
+                    "period_end": "2020-05-01",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-04",
-                    "period_end": "2020-04-10",
-                    "uses": 0,
-                    "statement": "Insert"
+                    "period_begin": "2020-04-19",
+                    "period_end": "2020-04-25",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-10",
-                    "period_end": "2020-04-16",
-                    "uses": 0,
-                    "statement": "Update"
+                    "period_begin": "2020-04-13",
+                    "period_end": "2020-04-19",
+                    "min_selects": 750,
+                    "max_selects": 750,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-03-29",
-                    "period_end": "2020-04-04",
-                    "uses": 0,
-                    "statement": "Insert"
+                    "period_begin": "2020-04-07",
+                    "period_end": "2020-04-13",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-03-23",
-                    "period_end": "2020-03-29",
-                    "uses": 0,
-                    "statement": "Insert"
+                    "period_begin": "2020-05-01",
+                    "period_end": "2020-05-07",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-16",
-                    "period_end": "2020-04-22",
-                    "uses": 0,
-                    "statement": "Update"
+                    "period_begin": "2020-03-26",
+                    "period_end": "2020-04-01",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-22",
-                    "period_end": "2020-04-28",
-                    "uses": 0,
-                    "statement": "Insert"
+                    "period_begin": "2020-03-20",
+                    "period_end": "2020-03-26",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 },
                 {
-                    "period_begin": "2020-04-04",
-                    "period_end": "2020-04-10",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-05-04",
-                    "period_end": "2020-05-10",
-                    "uses": 0,
-                    "statement": "Insert"
-                },
-                {
-                    "period_begin": "2020-03-29",
-                    "period_end": "2020-04-04",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-04-22",
-                    "period_end": "2020-04-28",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-03-17",
-                    "period_end": "2020-03-23",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-03-23",
-                    "period_end": "2020-03-29",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-05-10",
-                    "period_end": "2020-05-16",
-                    "uses": 0,
-                    "statement": "Insert"
-                },
-                {
-                    "period_begin": "2020-03-29",
-                    "period_end": "2020-04-04",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-05-04",
-                    "period_end": "2020-05-10",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-04-28",
-                    "period_end": "2020-05-04",
-                    "uses": 0,
-                    "statement": "Insert"
-                },
-                {
-                    "period_begin": "2020-05-10",
-                    "period_end": "2020-05-16",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-03-23",
-                    "period_end": "2020-03-29",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-04-04",
-                    "period_end": "2020-04-10",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-04-28",
-                    "period_end": "2020-05-04",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-05-04",
-                    "period_end": "2020-05-10",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-04-16",
-                    "period_end": "2020-04-22",
-                    "uses": 0,
-                    "statement": "Insert"
-                },
-                {
-                    "period_begin": "2020-05-10",
-                    "period_end": "2020-05-16",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-04-22",
-                    "period_end": "2020-04-28",
-                    "uses": 0,
-                    "statement": "Update"
-                },
-                {
-                    "period_begin": "2020-04-10",
-                    "period_end": "2020-04-16",
-                    "uses": 0,
-                    "statement": "Insert"
-                },
-                {
-                    "period_begin": "2020-04-16",
-                    "period_end": "2020-04-22",
-                    "uses": 0,
-                    "statement": "Select"
-                },
-                {
-                    "period_begin": "2020-03-17",
-                    "period_end": "2020-03-23",
-                    "uses": 0,
-                    "statement": "Insert"
+                    "period_begin": "2020-04-01",
+                    "period_end": "2020-04-07",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
                 }
             ]
         }

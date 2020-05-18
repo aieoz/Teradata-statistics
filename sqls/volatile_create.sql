@@ -2,7 +2,12 @@ CREATE VOLATILE TABLE v_join
 (
         QueryID BIGINT,
         CollectTimeStamp TIMESTAMP,
-        StatementGroup VARCHAR(40),
-        ObjectTableName VARCHAR(100)
+        ObjectTableName VARCHAR(100),
+        scope BYTEINT,
+        SelectOption INT,
+        InsertOption INT,
+        UpdateOption INT,
+        DeleteOption INT,
+        InsSelOption INT
 )
 ON COMMIT PRESERVE ROWS;

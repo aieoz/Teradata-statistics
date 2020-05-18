@@ -55,17 +55,68 @@ class TrafficType(libs.analysis.AbstractAnalysis.AbstractAnalysis):
                 "table_name": table_name,
                 "periods": []
             }
+            table_results_collector = {}
+
             for time_id in pd.read_sql(sSQL, self.connection).values:
                 period_begin = time_id[0]
                 period_end = time_id[1]
-                statement = time_id[2]
-                total_uses = int(time_id[3])
+                scope = int(time_id[2])
+
+                selects = int(time_id[3])
+                inserts = int(time_id[4])
+                updates = int(time_id[5])
+                deletes = int(time_id[6])
+                inssels = int(time_id[7])
+
+                if not period_begin in table_results_collector:
+                    table_results_collector[period_begin] = {}
+                
+                if not scope in table_results_collector[period_begin]:
+                    table_results_collector[period_begin][scope] = {}
+
+                table_results_collector[period_begin][scope] = {
+                    "period_begin": period_begin,
+                    "period_end": period_end,
+                    "scope": scope,
+                    "selects": selects,
+                    "inserts": inserts,
+                    "updates": updates,
+                    "deletes": deletes,
+                    "inssels": inssels
+                }
+
+            for collected in table_results_collector:
+                min_selects = table_results_collector[collected][1]["selects"]
+                max_selects = min_selects + table_results_collector[collected][0]["selects"]
+
+                min_inserts = table_results_collector[collected][1]["inserts"]
+                max_inserts = min_inserts + table_results_collector[collected][0]["inserts"]
+
+                min_updates = table_results_collector[collected][1]["updates"]
+                max_updates = min_updates + table_results_collector[collected][0]["updates"]
+
+                min_deletes = table_results_collector[collected][1]["deletes"]
+                max_deletes = min_deletes + table_results_collector[collected][0]["deletes"]
+
+                min_inssels = table_results_collector[collected][1]["inssels"]
+                max_inssels = min_inssels + table_results_collector[collected][0]["inssels"]
+
+                period_begin = table_results_collector[collected][1]["period_begin"]
+                period_end = table_results_collector[collected][1]["period_end"]
 
                 table_results["periods"].append({
                     "period_begin": period_begin,
                     "period_end": period_end,
-                    "uses": total_uses,
-                    "statement": statement
+                    "min_selects": min_selects,
+                    "max_selects": max_selects,
+                    "min_inserts": min_inserts,
+                    "max_inserts": max_inserts,
+                    "min_updates": min_updates,
+                    "max_updates": max_updates,
+                    "min_deletes": min_deletes,
+                    "max_deletes": max_deletes,
+                    "min_inssels": min_inssels,
+                    "max_inssels": max_inssels
                 })
             
             result["tables"].append(table_results)
