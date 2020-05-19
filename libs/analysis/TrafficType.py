@@ -4,31 +4,11 @@ import libs.analysis.PreCreator
 
 class TrafficType(libs.analysis.AbstractAnalysis.AbstractAnalysis):
     system_table = "traffic_type"
+    fill_table = "sqls/traffic_type/traffic_type.sql"
+    v_fill_table = "sqls/traffic_type/volatile_fill.sql"
 
     def __init__(self, settings):
-        super().__init__(settings, self.system_table)
-    
-    def update(self, table, date):
-        self.test_connection()
-
-        file = open('sqls/traffic_type/traffic_type.sql', mode="r")
-        SQL = file.read()
-        file.close()
-
-        db_name = table.split(".")[0]
-        tb_name = table.split(".")[1]
-
-        settings = {
-            "DAY": date,
-            "DATABASE_NAME": db_name,
-            "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
-            "TABLE_NAME": tb_name
-        }
-
-        libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name, 'sqls/traffic_type/volatile_fill.sql')
-
-        SQL = self.replace_sql(SQL, settings)
-        self.connection.execute(SQL)
+        super().__init__(settings, self.system_table, self.fill_table, self.v_fill_table)
     
     def read(self, table_names, begin, end):
         result = {}

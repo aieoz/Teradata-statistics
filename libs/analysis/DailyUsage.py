@@ -3,26 +3,11 @@ import libs.analysis.AbstractAnalysis
 
 class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
     system_table = "daily_usage"
+    fill_table = "sqls/daily_usage/daily_usage.sql"
+    v_fill_table = "sqls/daily_usage/daily_usage_read.sql"
 
     def __init__(self, settings):
-        super().__init__(settings, self.system_table)
-
-    def update(self, table, date):
-        self.test_connection()
-
-        file = open('sqls/daily_usage/daily_usage.sql', mode="r")
-        SQL = file.read()
-        file.close()
-
-        settings = {
-            "DAY": date,
-            "DATABASE_NAME": table.split(".")[0],
-            "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
-            "TABLE_NAME": table.split(".")[1]
-        }
-
-        SQL = self.replace_sql(SQL, settings)
-        self.connection.execute(SQL)
+        super().__init__(settings, self.system_table, self.fill_table, self.v_fill_table)
     
     def read(self, table_names, begin, end):
         result = {}
@@ -31,7 +16,7 @@ class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
         result["end"] = end
         result["tables"] = []
 
-        file = open('sqls/daily_usage/daily_usage_read.sql', mode="r")
+        file = open('', mode="r")
         SQL = file.read()
         file.close()
 

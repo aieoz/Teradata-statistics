@@ -1,11 +1,14 @@
 import pandas as pd
+import libs.analysis.PreCreator
 
 class AbstractAnalysis:
     
-    def __init__(self, settings, system_table):
+    def __init__(self, settings, system_table, fill_table, v_fill_table):
         self.connection = None
         self.settings = settings
         self.system_table = system_table
+        self.fill_table = fill_table
+        self.v_fill_table = v_fill_table
 
     def set_connection(self, connection):
         self.connection = connection
@@ -49,4 +52,24 @@ class AbstractAnalysis:
 
         return days
 
-        
+    def update(self, table, date):
+        self.test_connection()
+
+        file = open(self.fill_table, mode="r")
+        SQL = file.read()
+        file.close()
+
+        db_name = table.split(".")[0]
+        tb_name = table.split(".")[1]
+
+        settings = {
+            "DAY": date,
+            "DATABASE_NAME": db_name,
+            "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
+            "TABLE_NAME": tb_name
+        }
+
+        libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name, self.v_fill_table)
+
+        SQL = self.replace_sql(SQL, settings)
+        self.connection.execute(SQL)

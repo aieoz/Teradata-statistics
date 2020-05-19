@@ -36,6 +36,11 @@ class PreCreator:
         file.close()
         connection.execute(SQL)
 
+        file = open('sqls/volatile_create_3.sql', mode="r")
+        SQL = file.read()
+        file.close()
+        connection.execute(SQL)
+
         PreCreator.initialized = True
 
 

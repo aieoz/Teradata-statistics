@@ -7,6 +7,7 @@ import libs.analysis.TableUsage
 import libs.analysis.DailyUsage
 import libs.analysis.TrafficType
 import libs.analysis.TrafficTypeUser
+import libs.analysis.Inserts
 import pandas as pd
 
 from datetime import date, timedelta
@@ -101,6 +102,8 @@ def analysis_mapper(name, settings):
         return libs.analysis.TrafficType.TrafficType(settings)
     elif name == "TTU":
         return libs.analysis.TrafficTypeUser.TrafficTypeUser(settings)
+    elif name == "INS":
+        return libs.analysis.Inserts.Inserts(settings)
     else:
         raise Exception("Unknown analysis " + name)
 

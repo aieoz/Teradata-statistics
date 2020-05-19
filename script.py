@@ -49,7 +49,7 @@ else:
     for an in runtime_settings["analysis"]:
         runtime_settings["analysis"][an] = runtime_settings["all_analysis"][an]
 
-print("Początek czasu analizy:  ", runtime_settings["begin"])
+print("Poczatek czasu analizy:  ", runtime_settings["begin"])
 print("Koniec czasu analizy:    ", runtime_settings["end"])
 print("Analizy:                 ")
 for an in runtime_settings["analysis"]:

@@ -44,6 +44,15 @@ CREATE TABLE TDSP_ANALYSIS.traffic_type_user (
     total           INT
 );
 
+CREATE TABLE TDSP_ANALYSIS.inserts (
+    measure_date    DATE NOT NULL,
+    table_name      VARCHAR(128) NOT NULL,
+    database_name   VARCHAR(128) NOT NULL,
+    complete        BYTEINT,
+    insert_single   BIGINT,
+    insert_group    BIGINT
+);
+
 CREATE TABLE TDSP_ANALYSIS.system_hours (
     HOUR_ID DECIMAL(2,0)
 );

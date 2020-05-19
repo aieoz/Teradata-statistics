@@ -1,7 +1,6 @@
 {
     "database_host": "192.168.0.102",
     "database_user": "dbc",
-    "beggining": "2020-01-01",
     "analysis_database": "TDSP_ANALYSIS",
     "default_period": 30,
     "analysis": [
@@ -36,10 +35,10 @@
             ]
         },
         {
-            "name": "Traffic type with users",
-            "description": "Joins/Inserts number and contributor info",
-            "short": "TTU",
-            "target": "target/traffic_type_with_user.json",
+            "name": "Inserts counts for tables",
+            "description": "Insert operations",
+            "short": "INS",
+            "target": "target/inserts.json",
             "enabled": true,
             "default_tables": [
                 "movies.movies"
