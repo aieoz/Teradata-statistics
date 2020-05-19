@@ -1,7 +1,6 @@
 CREATE DATABASE TDSP_ANALYSIS FROM DBC;
 
 
-
 CREATE TABLE TDSP_ANALYSIS.daily_usage (
     measure_date    DATE NOT NULL,
     measure_hour    INT,
@@ -53,9 +52,12 @@ CREATE TABLE TDSP_ANALYSIS.inserts (
     insert_group    BIGINT
 );
 
+
+
 CREATE TABLE TDSP_ANALYSIS.system_hours (
     HOUR_ID DECIMAL(2,0)
 );
+
 INSERT INTO TDSP_ANALYSIS.system_hours (HOUR_ID) VALUES (0);
 INSERT INTO TDSP_ANALYSIS.system_hours (HOUR_ID) VALUES (1);
 INSERT INTO TDSP_ANALYSIS.system_hours (HOUR_ID) VALUES (2);

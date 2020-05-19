@@ -30,7 +30,6 @@ class Inserts(libs.analysis.AbstractAnalysis.AbstractAnalysis):
                 "END": end
             }
             sSQL = self.replace_sql(SQL, settings)
-            print(sSQL)
 
             table_results = {
                 "table_name": table_name,
