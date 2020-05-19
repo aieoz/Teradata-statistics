@@ -35,15 +35,20 @@ class AbstractAnalysis:
         SQL = file.read()
         file.close()
 
+        db_name = table_name.split(".")[0]
+        tb_name = table_name.split(".")[1]
+
         settings = {
             "BEGIN": begin,
             "END": end,
             "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
-            "SYSTEM_TABLE_NAME": self.system_table
+            "SYSTEM_TABLE_NAME": self.system_table,
+            "TABLE_NAME": tb_name,
+            "DATABASE_NAME": db_name
         }
 
         SQL = self.replace_sql(SQL, settings)
-        # print(SQL)
+        print(SQL)
 
         days = []
 
