@@ -4,8 +4,319 @@
     "end": "2020-05-19",
     "tables": [
         {
-            "table_name": "DBC.DBQLogTbl",
-            "days": []
+            "table_name": "movies.movies",
+            "days": [
+                {
+                    "measure_date": "2020-03-19",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-20",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-21",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-22",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-23",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-24",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-25",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-26",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-27",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-28",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-29",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-30",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-03-31",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-01",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-02",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-03",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-04",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-05",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-06",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-07",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-08",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-09",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-10",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-11",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-12",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-13",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-14",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-15",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-16",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-17",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-18",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-19",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-20",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-21",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-22",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-23",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-24",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-25",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-26",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-27",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-28",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-29",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-04-30",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-01",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-02",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-03",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-04",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-05",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-06",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-07",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-08",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-09",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-10",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-11",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-12",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-13",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-14",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-15",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-16",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-17",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-18",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-19",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                }
+            ]
         }
     ]
 }

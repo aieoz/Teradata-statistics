@@ -24,7 +24,7 @@ class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
             settings = {
                 "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
                 "DATABASE_NAME": table_name.split(".")[0],
-                "TABLE_NAME": table_name.split(".")[0],
+                "TABLE_NAME": table_name.split(".")[1],
                 "BEGIN": begin,
                 "END": end
             }

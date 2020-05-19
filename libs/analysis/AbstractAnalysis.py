@@ -48,7 +48,6 @@ class AbstractAnalysis:
         }
 
         SQL = self.replace_sql(SQL, settings)
-        print(SQL)
 
         days = []
 
