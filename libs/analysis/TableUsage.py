@@ -26,7 +26,7 @@ class TableUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
     
     def read(self, table_names, begin, end):
         result = {}
-        result["operation"] = "Daily usage"
+        result["operation"] = "Table usage"
         result["begin"] = begin
         result["end"] = end
         result["tables"] = []

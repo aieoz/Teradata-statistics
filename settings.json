@@ -34,6 +34,16 @@
             "default_tables": [
                 "movies.movies"
             ]
+        },
+        {
+            "name": "Traffic type with users",
+            "description": "Joins/Inserts number and contributor info",
+            "short": "TTU",
+            "target": "target/traffic_type_with_user.json",
+            "enabled": true,
+            "default_tables": [
+                "movies.movies"
+            ]
         }
     ]
 }

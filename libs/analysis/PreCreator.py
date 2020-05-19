@@ -6,11 +6,11 @@ class PreCreator:
     initialized = False
     
     @staticmethod
-    def fill(connection, date, database_name, table_name):
+    def fill(connection, date, database_name, table_name, sql_file):
         if not PreCreator.initialized:
             PreCreator.init(connection)
 
-        file = open('sqls/volatile_fill.sql', mode="r")
+        file = open(sql_file, mode="r")
         SQL = file.read()
         file.close()
 
@@ -20,16 +20,22 @@ class PreCreator:
             "TABLE_NAME": table_name
         }
 
+        
         SQL = libs.analysis.AbstractAnalysis.AbstractAnalysis.replace_sql(SQL, settings)
         connection.execute(SQL)
 
     @staticmethod
     def init(connection):
-        file = open('sqls/volatile_create.sql', mode="r")
+        file = open('sqls/volatile_create_1.sql', mode="r")
         SQL = file.read()
         file.close()
-
         connection.execute(SQL)
+
+        file = open('sqls/volatile_create_2.sql', mode="r")
+        SQL = file.read()
+        file.close()
+        connection.execute(SQL)
+
         PreCreator.initialized = True
 
 

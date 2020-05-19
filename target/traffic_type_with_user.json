@@ -1,0 +1,137 @@
+{
+    "operation": "Traffic type with user info",
+    "begin": "2020-03-19",
+    "end": "2020-05-19",
+    "tables": [
+        {
+            "table_name": "movies.movies",
+            "statement_types": {
+                "Select": {
+                    "users": [
+                        {
+                            "user_id": 256,
+                            "user_name": "Kamil1",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 257,
+                            "user_name": "Kamil2",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 258,
+                            "user_name": "Kamil3",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 259,
+                            "user_name": "Kamil4",
+                            "uses": 7500
+                        }
+                    ]
+                },
+                "Update": {
+                    "users": [
+                        {
+                            "user_id": 256,
+                            "user_name": "Kamil1",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 257,
+                            "user_name": "Kamil2",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 258,
+                            "user_name": "Kamil3",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 259,
+                            "user_name": "Kamil4",
+                            "uses": 7500
+                        }
+                    ]
+                },
+                "Insert": {
+                    "users": [
+                        {
+                            "user_id": 256,
+                            "user_name": "Kamil1",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 257,
+                            "user_name": "Kamil2",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 258,
+                            "user_name": "Kamil3",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 259,
+                            "user_name": "Kamil4",
+                            "uses": 7500
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "table_name": "movies.directors",
+            "statement_types": {
+                "Select": {
+                    "users": [
+                        {
+                            "user_id": 256,
+                            "user_name": "Kamil1",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 257,
+                            "user_name": "Kamil2",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 258,
+                            "user_name": "Kamil3",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 259,
+                            "user_name": "Kamil4",
+                            "uses": 7500
+                        }
+                    ]
+                },
+                "Update": {
+                    "users": [
+                        {
+                            "user_id": 256,
+                            "user_name": "Kamil1",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 257,
+                            "user_name": "Kamil2",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 258,
+                            "user_name": "Kamil3",
+                            "uses": 7500
+                        },
+                        {
+                            "user_id": 259,
+                            "user_name": "Kamil4",
+                            "uses": 7500
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

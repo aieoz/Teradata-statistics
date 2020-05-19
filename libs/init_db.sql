@@ -5,24 +5,24 @@ CREATE DATABASE TDSP_ANALYSIS FROM DBC;
 CREATE TABLE TDSP_ANALYSIS.daily_usage (
     measure_date    DATE NOT NULL,
     measure_hour    INT,
-    table_name      VARCHAR(100) NOT NULL,
-    database_name   VARCHAR(100) NOT NULL,
+    table_name      VARCHAR(128) NOT NULL,
+    database_name   VARCHAR(128) NOT NULL,
     complete        BYTEINT,
     uses_total      DECIMAL(12, 2)
 );
 
 CREATE TABLE TDSP_ANALYSIS.table_usage (
     measure_date    DATE NOT NULL,
-    table_name      VARCHAR(100) NOT NULL,
-    database_name   VARCHAR(100) NOT NULL,
+    table_name      VARCHAR(128) NOT NULL,
+    database_name   VARCHAR(128) NOT NULL,
     complete        BYTEINT,
     uses_total      DECIMAL(12, 2)
 );
 
 CREATE TABLE TDSP_ANALYSIS.traffic_type (
     measure_date    DATE NOT NULL,
-    table_name      VARCHAR(100) NOT NULL,
-    database_name   VARCHAR(100) NOT NULL,
+    table_name      VARCHAR(128) NOT NULL,
+    database_name   VARCHAR(128) NOT NULL,
     complete        BYTEINT,
     scope           BYTEINT,
     SelectOption INT,
@@ -30,6 +30,18 @@ CREATE TABLE TDSP_ANALYSIS.traffic_type (
     UpdateOption INT,
     DeleteOption INT,
     InsSelOption INT
+);
+
+CREATE TABLE TDSP_ANALYSIS.traffic_type_user (
+    measure_date    DATE NOT NULL,
+    table_name      VARCHAR(128) NOT NULL,
+    database_name   VARCHAR(128) NOT NULL,
+    complete        BYTEINT,
+    statement_type  VARCHAR(20),
+    num_of          INT,
+    user_id         BYTE(4),
+    user_name       VARCHAR(128),
+    total           INT
 );
 
 CREATE TABLE TDSP_ANALYSIS.system_hours (

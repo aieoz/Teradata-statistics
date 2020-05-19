@@ -147,6 +147,151 @@
                     "max_inssels": 0
                 }
             ]
+        },
+        {
+            "table_name": "movies.directors",
+            "periods": [
+                {
+                    "period_begin": "2020-05-13",
+                    "period_end": "2020-05-19",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 10,
+                    "max_inserts": 10,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-05-07",
+                    "period_end": "2020-05-13",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 20,
+                    "max_updates": 20,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-04-25",
+                    "period_end": "2020-05-01",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-04-19",
+                    "period_end": "2020-04-25",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 10,
+                    "max_inserts": 110,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-04-13",
+                    "period_end": "2020-04-19",
+                    "min_selects": 750,
+                    "max_selects": 750,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-04-07",
+                    "period_end": "2020-04-13",
+                    "min_selects": 10,
+                    "max_selects": 20,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-05-01",
+                    "period_end": "2020-05-07",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-03-26",
+                    "period_end": "2020-04-01",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-03-20",
+                    "period_end": "2020-03-26",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                },
+                {
+                    "period_begin": "2020-04-01",
+                    "period_end": "2020-04-07",
+                    "min_selects": 0,
+                    "max_selects": 0,
+                    "min_inserts": 0,
+                    "max_inserts": 0,
+                    "min_updates": 0,
+                    "max_updates": 0,
+                    "min_deletes": 0,
+                    "max_deletes": 0,
+                    "min_inssels": 0,
+                    "max_inssels": 0
+                }
+            ]
         }
     ]
 }

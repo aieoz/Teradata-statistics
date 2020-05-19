@@ -1,6 +1,6 @@
-DELETE FROM v_join;
+DELETE FROM v_traffic_type;
 
-INSERT INTO v_join (QueryID, 
+INSERT INTO v_traffic_type (QueryID, 
 		CollectTimeStamp,
 		ObjectTablename,
 		scope,

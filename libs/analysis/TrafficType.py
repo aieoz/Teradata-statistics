@@ -25,14 +25,14 @@ class TrafficType(libs.analysis.AbstractAnalysis.AbstractAnalysis):
             "TABLE_NAME": tb_name
         }
 
-        libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name)
+        libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name, 'sqls/traffic_type/volatile_fill.sql')
 
         SQL = self.replace_sql(SQL, settings)
         self.connection.execute(SQL)
     
     def read(self, table_names, begin, end):
         result = {}
-        result["operation"] = "Daily usage"
+        result["operation"] = "Traffic type"
         result["begin"] = begin
         result["end"] = end
         result["tables"] = []
