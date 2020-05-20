@@ -21,7 +21,7 @@ MERGE INTO $SYSTEM_DATABASE_NAME.traffic_type as traffic_type USING
 				SUM(UpdateOption) AS t_UpdateOption, 
 				SUM(DeleteOption) AS t_DeleteOption, 
 				SUM(InsSelOption) AS t_InsSelOption
-			FROM v_join GROUP BY scope
+			FROM v_traffic_type GROUP BY scope
 	) AS volatile_reference RIGHT OUTER JOIN 
 	(
 		SELECT scope FROM 

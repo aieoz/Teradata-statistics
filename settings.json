@@ -1,8 +1,9 @@
 {
-    "database_host": "192.168.0.102",
+    "database_host": "192.168.0.103",
     "database_user": "dbc",
     "analysis_database": "TDSP_ANALYSIS",
     "default_period": 30,
+    "odbc_location": "/opt/teradata/client/",
     "analysis": [
         {
             "name": "Tables usage",
@@ -39,6 +40,16 @@
             "description": "Insert operations",
             "short": "INS",
             "target": "target/inserts.json",
+            "enabled": true,
+            "default_tables": [
+                "movies.movies"
+            ]
+        },
+        {
+            "name": "Rows Actions",
+            "description": "Count of rows modified/selected/created in some periods",
+            "short": "ROW",
+            "target": "target/rows_actions.json",
             "enabled": true,
             "default_tables": [
                 "movies.movies"

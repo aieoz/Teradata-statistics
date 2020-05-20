@@ -15,7 +15,7 @@ SELECT l_QueryID,
 	CollectTimeStamp as l_CollectTimeStamp,
 	ObjectTableName AS l_ObjectTableName,
 	CASE 
-	 WHEN Statements<=1 THEN 1 
+	 WHEN (l_SelectOption + l_InsertOption + l_UpdateOption + l_DeleteOption + l_InsSelOption)=1 THEN 1 
 	 ELSE 0 
 	END AS l_Statements, 
 	-- Select option
@@ -97,7 +97,7 @@ SELECT l_QueryID,
    	   THEN CAST(REGEXP_REPLACE(REGEXP_REPLACE(StatementGroup, '^.*Del=', ''), ' .*', '') AS INT)
    	   ELSE 0
    	 END
-   END AS l_DeleteOption
+   END AS l_InsSelOption
 
 	FROM 
 	(

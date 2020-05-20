@@ -4,7 +4,7 @@ import libs.analysis.AbstractAnalysis
 class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
     system_table = "daily_usage"
     fill_table = "sqls/daily_usage/daily_usage.sql"
-    v_fill_table = "sqls/daily_usage/daily_usage_read.sql"
+    v_fill_table = None
 
     def __init__(self, settings):
         super().__init__(settings, self.system_table, self.fill_table, self.v_fill_table)
@@ -16,7 +16,7 @@ class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
         result["end"] = end
         result["tables"] = []
 
-        file = open('', mode="r")
+        file = open('sqls/daily_usage/daily_usage_read.sql', mode="r")
         SQL = file.read()
         file.close()
 

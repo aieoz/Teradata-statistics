@@ -2,27 +2,12 @@ import pandas as pd
 import libs.analysis.AbstractAnalysis
 
 class TableUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
-    system_table = "tables_usage"
+    system_table = "table_usage"
+    fill_table = "sqls/table_usage/table_usage.sql"
+    v_fill_table = None
 
     def __init__(self, settings):
-        super().__init__(settings, self.system_table)
-    
-    def update(self, table, date):
-        self.test_connection()
-
-        file = open('sqls/table_usage/table_usage.sql', mode="r")
-        SQL = file.read()
-        file.close()
-
-        settings = {
-            "DAY": date,
-            "DATABASE_NAME": table.split(".")[0],
-            "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
-            "TABLE_NAME": table.split(".")[1]
-        }
-
-        SQL = self.replace_sql(SQL, settings)
-        self.connection.execute(SQL)
+        super().__init__(settings, self.system_table, self.fill_table, self.v_fill_table)
     
     def read(self, table_names, begin, end):
         result = {}

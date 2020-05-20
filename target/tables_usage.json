@@ -1,60 +1,60 @@
 {
-    "operation": "Daily usage",
-    "begin": "2020-03-14",
-    "end": "2020-05-14",
+    "operation": "Table usage",
+    "begin": "2020-03-20",
+    "end": "2020-05-20",
     "tables": [
         {
             "table_name": "movies.movies",
             "periods": [
                 {
-                    "period_begin": "2020-03-27",
-                    "period_end": "2020-04-02",
-                    "total": 0
-                },
-                {
-                    "period_begin": "2020-04-20",
-                    "period_end": "2020-04-26",
-                    "total": 0
-                },
-                {
                     "period_begin": "2020-04-02",
                     "period_end": "2020-04-08",
-                    "total": 0
+                    "uses": 0
                 },
                 {
-                    "period_begin": "2020-03-21",
-                    "period_end": "2020-03-27",
-                    "total": 0
+                    "period_begin": "2020-03-27",
+                    "period_end": "2020-04-02",
+                    "uses": 0
                 },
                 {
                     "period_begin": "2020-05-08",
                     "period_end": "2020-05-14",
-                    "total": 0
+                    "uses": 0
                 },
                 {
-                    "period_begin": "2020-05-02",
-                    "period_end": "2020-05-08",
-                    "total": 0
+                    "period_begin": "2020-05-14",
+                    "period_end": "2020-05-20",
+                    "uses": 0
                 },
                 {
-                    "period_begin": "2020-04-08",
-                    "period_end": "2020-04-14",
-                    "total": 4000
-                },
-                {
-                    "period_begin": "2020-04-26",
-                    "period_end": "2020-05-02",
-                    "total": 0
+                    "period_begin": "2020-04-20",
+                    "period_end": "2020-04-26",
+                    "uses": 0
                 },
                 {
                     "period_begin": "2020-04-14",
                     "period_end": "2020-04-20",
-                    "total": 0
+                    "uses": 0
                 },
                 {
-                    "period_begin": "2020-03-15",
-                    "period_end": "2020-03-21",
-                    "total": 0
+                    "period_begin": "2020-04-26",
+                    "period_end": "2020-05-02",
+                    "uses": 0
+                },
+                {
+                    "period_begin": "2020-04-08",
+                    "period_end": "2020-04-14",
+                    "uses": 750
+                },
+                {
+                    "period_begin": "2020-03-21",
+                    "period_end": "2020-03-27",
+                    "uses": 0
+                },
+                {
+                    "period_begin": "2020-05-02",
+                    "period_end": "2020-05-08",
+                    "uses": 0
                 }
             ]
         }

@@ -1,10 +1,17 @@
 import libs.utils
 import argparse
 import json
+import os
 import getpass
 
-password = getpass.getpass()
 settings = libs.utils.read_settings()
+
+# Environmental variables for teradata DBC driver
+os.environ['ODBCINST'] = settings["odbc_location"] + "ODBC_64/odbcinst.ini"
+os.environ['ODBCINI'] = settings["odbc_location"] + "ODBC_64/odbc.ini"
+os.environ['LD_LIBRARY_PATH'] = settings["odbc_location"] + "16.20/lib:" + settings["odbc_location"] + "16.20/lib64:" + os.environ.get('LD_LIBRARY_PATH', '')
+
+password = getpass.getpass()
 settings["password"] = password
 args = libs.utils.set_args(settings)
 

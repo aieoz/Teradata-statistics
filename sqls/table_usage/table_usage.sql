@@ -12,6 +12,7 @@ MERGE INTO $SYSTEM_DATABASE_NAME.table_usage as table_usage USING
 	ZEROIFNULL(COUNT(*)) AS t_uses_total
 	FROM DBC.DBQLObjTbl
 	WHERE LOWER(ObjectTableName)=LOWER('$DATABASE_NAME')
+	AND ObjectType='Tab'
 	AND LOWER(ObjectDatabaseName)=LOWER('$TABLE_NAME')
 	AND CollectTimeStamp=CAST('$DAY' AS DATE)
 

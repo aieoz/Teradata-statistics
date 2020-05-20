@@ -73,7 +73,9 @@ class AbstractAnalysis:
             "TABLE_NAME": tb_name
         }
 
-        libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name, self.v_fill_table)
+        # Skipped if no volatile table is declared
+        if self.v_fill_table:
+            libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name, self.v_fill_table)
 
         SQL = self.replace_sql(SQL, settings)
         self.connection.execute(SQL)

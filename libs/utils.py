@@ -13,11 +13,6 @@ import pandas as pd
 from datetime import date, timedelta
 from dateutil.relativedelta import relativedelta
 
-# Environmental variables for teradata DBC driver
-os.environ['ODBCINST'] = "/opt/teradata/client/ODBC_64/odbcinst.ini"
-os.environ['ODBCINI'] = "/opt/teradata/client/ODBC_64/odbc.ini"
-os.environ['LD_LIBRARY_PATH'] = "/opt/teradata/client/16.20/lib:/opt/teradata/client/16.20/lib64:" + os.environ.get('LD_LIBRARY_PATH', '')
-
 
 def create_session(username, password, host):
     udaExec = teradata.UdaExec(appName="SQL shell", version="1.0", logConsole=False, odbcLibPath="/opt/teradata/client/ODBC_64/lib/libodbc.so")

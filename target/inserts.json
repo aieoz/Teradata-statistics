@@ -1,16 +1,12 @@
 {
     "operation": "Traffic type with user info",
-    "begin": "2020-03-19",
-    "end": "2020-05-19",
+    "begin": "2020-03-20",
+    "end": "2020-05-20",
     "tables": [
         {
-            "table_name": "movies.movies",
+            "table_name": "movies",
+            "database_name": "movies",
             "days": [
-                {
-                    "measure_date": "2020-03-19",
-                    "inserts_min": 0,
-                    "inserts_max": 0
-                },
                 {
                     "measure_date": "2020-03-20",
                     "inserts_min": 0,
@@ -313,6 +309,11 @@
                 },
                 {
                     "measure_date": "2020-05-19",
+                    "inserts_min": 0,
+                    "inserts_max": 0
+                },
+                {
+                    "measure_date": "2020-05-20",
                     "inserts_min": 0,
                     "inserts_max": 0
                 }
