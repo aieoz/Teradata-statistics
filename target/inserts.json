@@ -1,321 +1,4048 @@
 {
     "operation": "Traffic type with user info",
-    "begin": "2020-03-20",
-    "end": "2020-05-20",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
             "table_name": "movies",
             "database_name": "movies",
             "days": [
                 {
-                    "measure_date": "2020-03-20",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 1699,
+                    "inserts_max": 303699
                 },
                 {
-                    "measure_date": "2020-03-21",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 197,
+                    "inserts_max": 484
                 },
                 {
-                    "measure_date": "2020-03-22",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 193,
+                    "inserts_max": 449
                 },
                 {
-                    "measure_date": "2020-03-23",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 1859,
+                    "inserts_max": 3968
                 },
                 {
-                    "measure_date": "2020-03-24",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 1822,
+                    "inserts_max": 4099
                 },
                 {
-                    "measure_date": "2020-03-25",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 1796,
+                    "inserts_max": 4827
                 },
                 {
-                    "measure_date": "2020-03-26",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 1990,
+                    "inserts_max": 6044
                 },
                 {
-                    "measure_date": "2020-03-27",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 1783,
+                    "inserts_max": 4547
                 },
                 {
-                    "measure_date": "2020-03-28",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 169,
+                    "inserts_max": 355
                 },
                 {
-                    "measure_date": "2020-03-29",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 189,
+                    "inserts_max": 547
                 },
                 {
-                    "measure_date": "2020-03-30",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 1813,
+                    "inserts_max": 4233
                 },
                 {
-                    "measure_date": "2020-03-31",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 1779,
+                    "inserts_max": 3751
                 },
                 {
-                    "measure_date": "2020-04-01",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 1716,
+                    "inserts_max": 5010
                 },
                 {
-                    "measure_date": "2020-04-02",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 1971,
+                    "inserts_max": 4893
                 },
                 {
-                    "measure_date": "2020-04-03",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 2006,
+                    "inserts_max": 5780
                 },
                 {
-                    "measure_date": "2020-04-04",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 178,
+                    "inserts_max": 393
                 },
                 {
-                    "measure_date": "2020-04-05",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 174,
+                    "inserts_max": 384
                 },
                 {
-                    "measure_date": "2020-04-06",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 1992,
+                    "inserts_max": 4126
                 },
                 {
-                    "measure_date": "2020-04-07",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 1878,
+                    "inserts_max": 3811
                 },
                 {
-                    "measure_date": "2020-04-08",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 1916,
+                    "inserts_max": 4978
                 },
                 {
-                    "measure_date": "2020-04-09",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 1979,
+                    "inserts_max": 5897
                 },
                 {
-                    "measure_date": "2020-04-10",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 1903,
+                    "inserts_max": 5017
                 },
                 {
-                    "measure_date": "2020-04-11",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 198,
+                    "inserts_max": 460
                 },
                 {
-                    "measure_date": "2020-04-12",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 174,
+                    "inserts_max": 391
                 },
                 {
-                    "measure_date": "2020-04-13",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 1836,
+                    "inserts_max": 3673
                 },
                 {
-                    "measure_date": "2020-04-14",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 1896,
+                    "inserts_max": 5783
                 },
                 {
-                    "measure_date": "2020-04-15",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 1704,
+                    "inserts_max": 5195
                 },
                 {
-                    "measure_date": "2020-04-16",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 2018,
+                    "inserts_max": 5691
                 },
                 {
-                    "measure_date": "2020-04-17",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 1704,
+                    "inserts_max": 3738
                 },
                 {
-                    "measure_date": "2020-04-18",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 190,
+                    "inserts_max": 534
                 },
                 {
-                    "measure_date": "2020-04-19",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 201,
+                    "inserts_max": 336201
                 },
                 {
-                    "measure_date": "2020-04-20",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 2023,
+                    "inserts_max": 4784
                 },
                 {
-                    "measure_date": "2020-04-21",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 1880,
+                    "inserts_max": 5028
                 },
                 {
-                    "measure_date": "2020-04-22",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 1911,
+                    "inserts_max": 4716
                 },
                 {
-                    "measure_date": "2020-04-23",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 1856,
+                    "inserts_max": 5286
                 },
                 {
-                    "measure_date": "2020-04-24",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 1682,
+                    "inserts_max": 4846
                 },
                 {
-                    "measure_date": "2020-04-25",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 201,
+                    "inserts_max": 561
                 },
                 {
-                    "measure_date": "2020-04-26",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 194,
+                    "inserts_max": 464
                 },
                 {
-                    "measure_date": "2020-04-27",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 1968,
+                    "inserts_max": 4477
                 },
                 {
-                    "measure_date": "2020-04-28",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 1877,
+                    "inserts_max": 4451
                 },
                 {
-                    "measure_date": "2020-04-29",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 2036,
+                    "inserts_max": 4805
                 },
                 {
-                    "measure_date": "2020-04-30",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 1849,
+                    "inserts_max": 4899
                 },
                 {
-                    "measure_date": "2020-05-01",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 1833,
+                    "inserts_max": 4659
                 },
                 {
-                    "measure_date": "2020-05-02",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 195,
+                    "inserts_max": 513
                 },
                 {
-                    "measure_date": "2020-05-03",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 172,
+                    "inserts_max": 480
                 },
                 {
-                    "measure_date": "2020-05-04",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 1933,
+                    "inserts_max": 4585
                 },
                 {
-                    "measure_date": "2020-05-05",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 2038,
+                    "inserts_max": 6290
                 },
                 {
-                    "measure_date": "2020-05-06",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 1950,
+                    "inserts_max": 4405
                 },
                 {
-                    "measure_date": "2020-05-07",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 1910,
+                    "inserts_max": 4435
                 },
                 {
-                    "measure_date": "2020-05-08",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 1741,
+                    "inserts_max": 3564
                 },
                 {
-                    "measure_date": "2020-05-09",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 168,
+                    "inserts_max": 377
                 },
                 {
-                    "measure_date": "2020-05-10",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 197,
+                    "inserts_max": 491
                 },
                 {
-                    "measure_date": "2020-05-11",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 1827,
+                    "inserts_max": 5322
                 },
                 {
-                    "measure_date": "2020-05-12",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 1753,
+                    "inserts_max": 4538
                 },
                 {
-                    "measure_date": "2020-05-13",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 1818,
+                    "inserts_max": 4757
                 },
                 {
-                    "measure_date": "2020-05-14",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 1940,
+                    "inserts_max": 4371
                 },
                 {
-                    "measure_date": "2020-05-15",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 1791,
+                    "inserts_max": 4076
                 },
                 {
-                    "measure_date": "2020-05-16",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 172,
+                    "inserts_max": 485
                 },
                 {
-                    "measure_date": "2020-05-17",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 190,
+                    "inserts_max": 483
                 },
                 {
-                    "measure_date": "2020-05-18",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 1899,
+                    "inserts_max": 4795
                 },
                 {
-                    "measure_date": "2020-05-19",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 1736,
+                    "inserts_max": 4495
+                }
+            ]
+        },
+        {
+            "table_name": "actors",
+            "database_name": "movies",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 1663,
+                    "inserts_max": 268563
                 },
                 {
-                    "measure_date": "2020-05-20",
-                    "inserts_min": 0,
-                    "inserts_max": 0
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 173,
+                    "inserts_max": 408
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 157,
+                    "inserts_max": 436
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 1645,
+                    "inserts_max": 3888
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 1836,
+                    "inserts_max": 3769
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 1544,
+                    "inserts_max": 3368
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 1723,
+                    "inserts_max": 3635
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 1630,
+                    "inserts_max": 4356
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 179,
+                    "inserts_max": 358
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 166,
+                    "inserts_max": 490
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 1674,
+                    "inserts_max": 4741
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 1512,
+                    "inserts_max": 3765
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 1745,
+                    "inserts_max": 3990
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 1621,
+                    "inserts_max": 4020
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 1624,
+                    "inserts_max": 3342
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 166,
+                    "inserts_max": 446
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 181,
+                    "inserts_max": 395
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 1705,
+                    "inserts_max": 4377
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 1807,
+                    "inserts_max": 4195
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 1602,
+                    "inserts_max": 3570
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 1779,
+                    "inserts_max": 4320
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 1537,
+                    "inserts_max": 3467
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 173,
+                    "inserts_max": 378
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 178,
+                    "inserts_max": 548
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 1508,
+                    "inserts_max": 3759
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 1759,
+                    "inserts_max": 4978
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 1560,
+                    "inserts_max": 4685
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 1624,
+                    "inserts_max": 4601
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 1585,
+                    "inserts_max": 3924
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 161,
+                    "inserts_max": 482
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 163,
+                    "inserts_max": 328
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 1637,
+                    "inserts_max": 224437
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 1748,
+                    "inserts_max": 3735
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 1798,
+                    "inserts_max": 4062
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 1752,
+                    "inserts_max": 5381
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 1602,
+                    "inserts_max": 4910
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 170,
+                    "inserts_max": 403
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 176,
+                    "inserts_max": 483
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 1736,
+                    "inserts_max": 5178
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 1654,
+                    "inserts_max": 4976
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 1614,
+                    "inserts_max": 4140
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 1696,
+                    "inserts_max": 4644
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 1573,
+                    "inserts_max": 3495
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 152,
+                    "inserts_max": 449
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 156,
+                    "inserts_max": 452
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 1802,
+                    "inserts_max": 3921
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 1540,
+                    "inserts_max": 4013
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 1540,
+                    "inserts_max": 4649
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 1668,
+                    "inserts_max": 4742
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 1591,
+                    "inserts_max": 4580
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 169,
+                    "inserts_max": 437
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 169,
+                    "inserts_max": 490
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 1750,
+                    "inserts_max": 5128
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 1766,
+                    "inserts_max": 4122
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 1617,
+                    "inserts_max": 4475
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 1836,
+                    "inserts_max": 5178
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 1840,
+                    "inserts_max": 5030
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 164,
+                    "inserts_max": 451
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 176,
+                    "inserts_max": 542
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 1557,
+                    "inserts_max": 4109
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 1802,
+                    "inserts_max": 5512
+                }
+            ]
+        },
+        {
+            "table_name": "directors",
+            "database_name": "movies",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 1675,
+                    "inserts_max": 4095
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 177,
+                    "inserts_max": 399
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 188,
+                    "inserts_max": 492
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 1817,
+                    "inserts_max": 3817
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 1826,
+                    "inserts_max": 5362
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 1888,
+                    "inserts_max": 4252
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 2000,
+                    "inserts_max": 5927
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 1898,
+                    "inserts_max": 4720
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 202,
+                    "inserts_max": 486
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 181,
+                    "inserts_max": 455
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 1857,
+                    "inserts_max": 5264
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 1829,
+                    "inserts_max": 5472
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 1912,
+                    "inserts_max": 4969
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 1895,
+                    "inserts_max": 4146
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 1737,
+                    "inserts_max": 4075
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 174,
+                    "inserts_max": 505
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 198,
+                    "inserts_max": 537
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 1812,
+                    "inserts_max": 4989
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 1724,
+                    "inserts_max": 4102
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 1931,
+                    "inserts_max": 5006
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 2023,
+                    "inserts_max": 6202
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 1924,
+                    "inserts_max": 5516
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 170,
+                    "inserts_max": 447
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 171,
+                    "inserts_max": 509
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 1683,
+                    "inserts_max": 3429
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 1893,
+                    "inserts_max": 4548
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 1927,
+                    "inserts_max": 5157
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 1726,
+                    "inserts_max": 4182
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 1839,
+                    "inserts_max": 3954
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 194,
+                    "inserts_max": 442
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 193,
+                    "inserts_max": 570
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 1785,
+                    "inserts_max": 4242
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 1693,
+                    "inserts_max": 3587
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 1763,
+                    "inserts_max": 3667
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 1712,
+                    "inserts_max": 4954
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 1743,
+                    "inserts_max": 3616
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 199,
+                    "inserts_max": 592
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 187,
+                    "inserts_max": 539
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 1971,
+                    "inserts_max": 5166
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 1933,
+                    "inserts_max": 4394
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 1770,
+                    "inserts_max": 4444
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 1718,
+                    "inserts_max": 4369
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 1745,
+                    "inserts_max": 4120
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 178,
+                    "inserts_max": 509
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 179,
+                    "inserts_max": 518
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 1822,
+                    "inserts_max": 5562
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 1836,
+                    "inserts_max": 4666
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 1920,
+                    "inserts_max": 4056
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 1897,
+                    "inserts_max": 5441
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 1821,
+                    "inserts_max": 5252
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 180,
+                    "inserts_max": 407
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 201,
+                    "inserts_max": 405
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 1839,
+                    "inserts_max": 4834
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 1880,
+                    "inserts_max": 4747
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 1779,
+                    "inserts_max": 4654
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 1687,
+                    "inserts_max": 5054
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 1730,
+                    "inserts_max": 5054
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 170,
+                    "inserts_max": 510
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 170,
+                    "inserts_max": 509
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 1928,
+                    "inserts_max": 5110
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 1848,
+                    "inserts_max": 4755
+                }
+            ]
+        },
+        {
+            "table_name": "directors_genres",
+            "database_name": "movies",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 1119,
+                    "inserts_max": 3212
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 114,
+                    "inserts_max": 228
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 118,
+                    "inserts_max": 363
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 1169,
+                    "inserts_max": 2828
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 1041,
+                    "inserts_max": 2206
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 1152,
+                    "inserts_max": 2679
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 1060,
+                    "inserts_max": 2997
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 1076,
+                    "inserts_max": 3321
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 111,
+                    "inserts_max": 252
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 111,
+                    "inserts_max": 319
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 1073,
+                    "inserts_max": 2860
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 1152,
+                    "inserts_max": 2699
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 1020,
+                    "inserts_max": 3022
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 1024,
+                    "inserts_max": 2529
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 1095,
+                    "inserts_max": 3064
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 120,
+                    "inserts_max": 336
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 112,
+                    "inserts_max": 248
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 1182,
+                    "inserts_max": 2945
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 1187,
+                    "inserts_max": 3338
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 1173,
+                    "inserts_max": 3143
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 1044,
+                    "inserts_max": 2989
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 1170,
+                    "inserts_max": 3178
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 115,
+                    "inserts_max": 258
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 113,
+                    "inserts_max": 229
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 1021,
+                    "inserts_max": 2952
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 1080,
+                    "inserts_max": 3060
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 1115,
+                    "inserts_max": 2684
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 1090,
+                    "inserts_max": 3251
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 1076,
+                    "inserts_max": 2255
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 103,
+                    "inserts_max": 220
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 120,
+                    "inserts_max": 268
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 1039,
+                    "inserts_max": 3001
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 1006,
+                    "inserts_max": 3050
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 1132,
+                    "inserts_max": 3504
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 1030,
+                    "inserts_max": 2350
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 1088,
+                    "inserts_max": 3092
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 104,
+                    "inserts_max": 230
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 112,
+                    "inserts_max": 339
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 1147,
+                    "inserts_max": 2400
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 1210,
+                    "inserts_max": 3525
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 1033,
+                    "inserts_max": 2158
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 1192,
+                    "inserts_max": 3497
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 1112,
+                    "inserts_max": 2709
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 115,
+                    "inserts_max": 340
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 116,
+                    "inserts_max": 269
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 1058,
+                    "inserts_max": 2894
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 1135,
+                    "inserts_max": 3233
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 1225,
+                    "inserts_max": 2961
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 1155,
+                    "inserts_max": 3284
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 1084,
+                    "inserts_max": 2703
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 101,
+                    "inserts_max": 295
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 114,
+                    "inserts_max": 263
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 1210,
+                    "inserts_max": 2562
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 1054,
+                    "inserts_max": 3032
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 1010,
+                    "inserts_max": 2657
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 1209,
+                    "inserts_max": 2653
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 1217,
+                    "inserts_max": 3451
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 106,
+                    "inserts_max": 256
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 120,
+                    "inserts_max": 328
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 1088,
+                    "inserts_max": 2657
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 1137,
+                    "inserts_max": 2933
+                }
+            ]
+        },
+        {
+            "table_name": "movies_directors",
+            "database_name": "movies",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 1373,
+                    "inserts_max": 2912
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 152,
+                    "inserts_max": 356
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 153,
+                    "inserts_max": 434
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 1592,
+                    "inserts_max": 4146
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 1538,
+                    "inserts_max": 3385
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 1417,
+                    "inserts_max": 4140
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 1522,
+                    "inserts_max": 3200
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 1467,
+                    "inserts_max": 3895
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 149,
+                    "inserts_max": 423
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 152,
+                    "inserts_max": 405
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 1373,
+                    "inserts_max": 2811
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 1405,
+                    "inserts_max": 3225
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 1555,
+                    "inserts_max": 4364
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 1590,
+                    "inserts_max": 3439
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 1555,
+                    "inserts_max": 4450
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 152,
+                    "inserts_max": 465
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 135,
+                    "inserts_max": 346
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 1450,
+                    "inserts_max": 3220
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 1389,
+                    "inserts_max": 3159
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 1507,
+                    "inserts_max": 4604
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 1438,
+                    "inserts_max": 3818
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 1386,
+                    "inserts_max": 3115
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 150,
+                    "inserts_max": 437
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 158,
+                    "inserts_max": 426
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 1507,
+                    "inserts_max": 3994
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 1493,
+                    "inserts_max": 4488
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 1557,
+                    "inserts_max": 4140
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 1360,
+                    "inserts_max": 4178
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 1511,
+                    "inserts_max": 3361
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 134,
+                    "inserts_max": 336
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 144,
+                    "inserts_max": 393
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 1568,
+                    "inserts_max": 3713
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 1469,
+                    "inserts_max": 3458
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 1552,
+                    "inserts_max": 4113
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 1473,
+                    "inserts_max": 4170
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 1490,
+                    "inserts_max": 3546
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 143,
+                    "inserts_max": 405
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 147,
+                    "inserts_max": 378
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 1554,
+                    "inserts_max": 3738
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 1349,
+                    "inserts_max": 3088
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 1501,
+                    "inserts_max": 3835
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 1544,
+                    "inserts_max": 4193
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 1486,
+                    "inserts_max": 3805
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 135,
+                    "inserts_max": 359
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 139,
+                    "inserts_max": 344
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 1456,
+                    "inserts_max": 4233
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 1479,
+                    "inserts_max": 3832
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 1352,
+                    "inserts_max": 4068
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 1353,
+                    "inserts_max": 3648
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 1370,
+                    "inserts_max": 3011
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 141,
+                    "inserts_max": 382
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 161,
+                    "inserts_max": 434
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 1588,
+                    "inserts_max": 4450
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 1440,
+                    "inserts_max": 4418
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 1484,
+                    "inserts_max": 4377
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 1466,
+                    "inserts_max": 2975
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 1562,
+                    "inserts_max": 3153
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 146,
+                    "inserts_max": 312
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 138,
+                    "inserts_max": 305
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 1554,
+                    "inserts_max": 4158
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 1409,
+                    "inserts_max": 3057
+                }
+            ]
+        },
+        {
+            "table_name": "movies_genres",
+            "database_name": "movies",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 727,
+                    "inserts_max": 1910
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 80,
+                    "inserts_max": 178
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 73,
+                    "inserts_max": 223
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 760,
+                    "inserts_max": 1951
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 692,
+                    "inserts_max": 1872
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 797,
+                    "inserts_max": 1690
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 784,
+                    "inserts_max": 1744
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 733,
+                    "inserts_max": 2003
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 76,
+                    "inserts_max": 227
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 72,
+                    "inserts_max": 175
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 711,
+                    "inserts_max": 2155
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 724,
+                    "inserts_max": 1667
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 796,
+                    "inserts_max": 2383
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 739,
+                    "inserts_max": 1548
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 697,
+                    "inserts_max": 1817
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 70,
+                    "inserts_max": 173
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 74,
+                    "inserts_max": 212
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 797,
+                    "inserts_max": 2373
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 743,
+                    "inserts_max": 2124
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 674,
+                    "inserts_max": 1366
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 769,
+                    "inserts_max": 2076
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 760,
+                    "inserts_max": 2263
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 73,
+                    "inserts_max": 213
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 71,
+                    "inserts_max": 144
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 777,
+                    "inserts_max": 2381
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 731,
+                    "inserts_max": 2163
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 765,
+                    "inserts_max": 2166
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 737,
+                    "inserts_max": 2264
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 679,
+                    "inserts_max": 1909
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 76,
+                    "inserts_max": 225
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 69,
+                    "inserts_max": 210
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 723,
+                    "inserts_max": 1499
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 728,
+                    "inserts_max": 1999
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 776,
+                    "inserts_max": 2116
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 724,
+                    "inserts_max": 1781
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 748,
+                    "inserts_max": 1718
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 72,
+                    "inserts_max": 181
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 80,
+                    "inserts_max": 179
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 678,
+                    "inserts_max": 2077
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 671,
+                    "inserts_max": 2074
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 686,
+                    "inserts_max": 1924
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 768,
+                    "inserts_max": 1931
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 797,
+                    "inserts_max": 2201
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 68,
+                    "inserts_max": 166
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 74,
+                    "inserts_max": 215
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 748,
+                    "inserts_max": 1834
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 812,
+                    "inserts_max": 2161
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 680,
+                    "inserts_max": 1410
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 707,
+                    "inserts_max": 1842
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 765,
+                    "inserts_max": 2133
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 68,
+                    "inserts_max": 140
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 81,
+                    "inserts_max": 164
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 771,
+                    "inserts_max": 2210
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 770,
+                    "inserts_max": 1731
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 703,
+                    "inserts_max": 2133
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 729,
+                    "inserts_max": 1702
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 744,
+                    "inserts_max": 1636
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 75,
+                    "inserts_max": 173
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 74,
+                    "inserts_max": 152
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 745,
+                    "inserts_max": 2108
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 770,
+                    "inserts_max": 2041
+                }
+            ]
+        },
+        {
+            "table_name": "roles",
+            "database_name": "movies",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 3856,
+                    "inserts_max": 8200
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 322,
+                    "inserts_max": 680
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 346,
+                    "inserts_max": 758
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 3660,
+                    "inserts_max": 10449
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 3818,
+                    "inserts_max": 8791
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 3276,
+                    "inserts_max": 7490
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 3492,
+                    "inserts_max": 9165
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 3287,
+                    "inserts_max": 7821
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 385,
+                    "inserts_max": 1111
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 333,
+                    "inserts_max": 791
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 3546,
+                    "inserts_max": 10746
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 3354,
+                    "inserts_max": 10203
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 3213,
+                    "inserts_max": 7081
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 3652,
+                    "inserts_max": 7389
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 3761,
+                    "inserts_max": 9739
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 327,
+                    "inserts_max": 985
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 374,
+                    "inserts_max": 996
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 3238,
+                    "inserts_max": 6708
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 3321,
+                    "inserts_max": 7485
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 3594,
+                    "inserts_max": 7253
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 3359,
+                    "inserts_max": 8433
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 3457,
+                    "inserts_max": 10647
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 325,
+                    "inserts_max": 830
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 384,
+                    "inserts_max": 981
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 3702,
+                    "inserts_max": 9394
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 3318,
+                    "inserts_max": 9577
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 3580,
+                    "inserts_max": 8418
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 3385,
+                    "inserts_max": 7794
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 3283,
+                    "inserts_max": 9671
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 337,
+                    "inserts_max": 745
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 322,
+                    "inserts_max": 859
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 3409,
+                    "inserts_max": 8924
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 3501,
+                    "inserts_max": 9038
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 3621,
+                    "inserts_max": 7457
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 3288,
+                    "inserts_max": 10158
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 3584,
+                    "inserts_max": 9746
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 351,
+                    "inserts_max": 830
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 336,
+                    "inserts_max": 877
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 3819,
+                    "inserts_max": 8265
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 3715,
+                    "inserts_max": 11262
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 3497,
+                    "inserts_max": 9658
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 3319,
+                    "inserts_max": 9654
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 3809,
+                    "inserts_max": 7765
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 351,
+                    "inserts_max": 705
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 381,
+                    "inserts_max": 866
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 3619,
+                    "inserts_max": 8190
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 3518,
+                    "inserts_max": 10332
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 3695,
+                    "inserts_max": 8066
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 3505,
+                    "inserts_max": 7100
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 3191,
+                    "inserts_max": 9550
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 342,
+                    "inserts_max": 946
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 323,
+                    "inserts_max": 788
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 3652,
+                    "inserts_max": 11063
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 3236,
+                    "inserts_max": 8420
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 3451,
+                    "inserts_max": 9237
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 3233,
+                    "inserts_max": 7200
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 3857,
+                    "inserts_max": 10968
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 345,
+                    "inserts_max": 1066
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 344,
+                    "inserts_max": 871
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 3272,
+                    "inserts_max": 7814
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 3256,
+                    "inserts_max": 6842
+                }
+            ]
+        },
+        {
+            "table_name": "buildings",
+            "database_name": "cinemas",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 390,
+                    "inserts_max": 813
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 35,
+                    "inserts_max": 107
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 39,
+                    "inserts_max": 111
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 373,
+                    "inserts_max": 805
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 385,
+                    "inserts_max": 947
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 372,
+                    "inserts_max": 1128
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 400,
+                    "inserts_max": 1040
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 391,
+                    "inserts_max": 905
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 35,
+                    "inserts_max": 101
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 33,
+                    "inserts_max": 99
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 368,
+                    "inserts_max": 990
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 390,
+                    "inserts_max": 1113
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 371,
+                    "inserts_max": 1086
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 352,
+                    "inserts_max": 970
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 334,
+                    "inserts_max": 897
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 37,
+                    "inserts_max": 106
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 39,
+                    "inserts_max": 86
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 367,
+                    "inserts_max": 919
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 370,
+                    "inserts_max": 1104
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 403,
+                    "inserts_max": 1186
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 348,
+                    "inserts_max": 1051
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 349,
+                    "inserts_max": 800
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 34,
+                    "inserts_max": 93
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 37,
+                    "inserts_max": 100
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 346,
+                    "inserts_max": 736
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 362,
+                    "inserts_max": 823
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 391,
+                    "inserts_max": 930
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 388,
+                    "inserts_max": 1009
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 376,
+                    "inserts_max": 1065
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 40,
+                    "inserts_max": 83
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 36,
+                    "inserts_max": 95
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 362,
+                    "inserts_max": 912
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 343,
+                    "inserts_max": 868
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 392,
+                    "inserts_max": 897
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 355,
+                    "inserts_max": 880
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 353,
+                    "inserts_max": 840
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 36,
+                    "inserts_max": 74
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 39,
+                    "inserts_max": 79
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 408,
+                    "inserts_max": 951
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 388,
+                    "inserts_max": 952
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 334,
+                    "inserts_max": 853
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 376,
+                    "inserts_max": 948
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 354,
+                    "inserts_max": 1075
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 35,
+                    "inserts_max": 107
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 34,
+                    "inserts_max": 99
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 353,
+                    "inserts_max": 765
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 387,
+                    "inserts_max": 932
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 406,
+                    "inserts_max": 820
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 346,
+                    "inserts_max": 790
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 401,
+                    "inserts_max": 1129
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 39,
+                    "inserts_max": 79
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 39,
+                    "inserts_max": 79
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 363,
+                    "inserts_max": 952
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 386,
+                    "inserts_max": 822
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 372,
+                    "inserts_max": 901
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 380,
+                    "inserts_max": 970
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 336,
+                    "inserts_max": 936
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 36,
+                    "inserts_max": 96
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 39,
+                    "inserts_max": 117
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 360,
+                    "inserts_max": 795
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 404,
+                    "inserts_max": 1249
+                }
+            ]
+        },
+        {
+            "table_name": "owners",
+            "database_name": "cinemas",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 547,
+                    "inserts_max": 1440
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 55,
+                    "inserts_max": 167
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 57,
+                    "inserts_max": 148
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 558,
+                    "inserts_max": 1161
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 604,
+                    "inserts_max": 1820
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 584,
+                    "inserts_max": 1449
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 517,
+                    "inserts_max": 1368
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 581,
+                    "inserts_max": 1726
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 55,
+                    "inserts_max": 130
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 60,
+                    "inserts_max": 122
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 549,
+                    "inserts_max": 1305
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 589,
+                    "inserts_max": 1402
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 549,
+                    "inserts_max": 1239
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 590,
+                    "inserts_max": 1499
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 520,
+                    "inserts_max": 1516
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 57,
+                    "inserts_max": 138
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 56,
+                    "inserts_max": 170
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 562,
+                    "inserts_max": 1673
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 518,
+                    "inserts_max": 1418
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 599,
+                    "inserts_max": 1275
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 535,
+                    "inserts_max": 1217
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 552,
+                    "inserts_max": 1257
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 61,
+                    "inserts_max": 179
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 52,
+                    "inserts_max": 119
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 530,
+                    "inserts_max": 1323
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 532,
+                    "inserts_max": 1477
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 550,
+                    "inserts_max": 1655
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 548,
+                    "inserts_max": 1568
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 578,
+                    "inserts_max": 1175
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 56,
+                    "inserts_max": 127
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 53,
+                    "inserts_max": 109
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 575,
+                    "inserts_max": 1358
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 597,
+                    "inserts_max": 1575
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 509,
+                    "inserts_max": 1338
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 575,
+                    "inserts_max": 1265
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 578,
+                    "inserts_max": 1177
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 60,
+                    "inserts_max": 138
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 58,
+                    "inserts_max": 140
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 513,
+                    "inserts_max": 1383
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 594,
+                    "inserts_max": 1802
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 513,
+                    "inserts_max": 1320
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 551,
+                    "inserts_max": 1191
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 610,
+                    "inserts_max": 1490
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 60,
+                    "inserts_max": 156
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 50,
+                    "inserts_max": 119
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 524,
+                    "inserts_max": 1270
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 602,
+                    "inserts_max": 1350
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 588,
+                    "inserts_max": 1291
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 553,
+                    "inserts_max": 1450
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 527,
+                    "inserts_max": 1054
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 57,
+                    "inserts_max": 158
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 56,
+                    "inserts_max": 125
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 609,
+                    "inserts_max": 1818
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 595,
+                    "inserts_max": 1564
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 504,
+                    "inserts_max": 1198
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 606,
+                    "inserts_max": 1486
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 579,
+                    "inserts_max": 1621
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 55,
+                    "inserts_max": 112
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 56,
+                    "inserts_max": 141
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 573,
+                    "inserts_max": 1627
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 577,
+                    "inserts_max": 1318
+                }
+            ]
+        },
+        {
+            "table_name": "premieres",
+            "database_name": "cinemas",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 3932,
+                    "inserts_max": 10022
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 424,
+                    "inserts_max": 1147
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 376,
+                    "inserts_max": 1039
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 4088,
+                    "inserts_max": 9941
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 4366,
+                    "inserts_max": 10272
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 4057,
+                    "inserts_max": 9205
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 4197,
+                    "inserts_max": 9672
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 4485,
+                    "inserts_max": 10210
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 373,
+                    "inserts_max": 824
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 385,
+                    "inserts_max": 944
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 4257,
+                    "inserts_max": 12074
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 4353,
+                    "inserts_max": 8962
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 4365,
+                    "inserts_max": 10957
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 4302,
+                    "inserts_max": 9808
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 3996,
+                    "inserts_max": 8141
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 401,
+                    "inserts_max": 1153
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 397,
+                    "inserts_max": 1195
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 3821,
+                    "inserts_max": 8657
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 3914,
+                    "inserts_max": 9616
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 3754,
+                    "inserts_max": 9425
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 3943,
+                    "inserts_max": 11372
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 4290,
+                    "inserts_max": 11779
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 443,
+                    "inserts_max": 943
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 411,
+                    "inserts_max": 1254
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 4074,
+                    "inserts_max": 9699
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 3740,
+                    "inserts_max": 8201
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 3974,
+                    "inserts_max": 9783
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 3796,
+                    "inserts_max": 10802
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 4084,
+                    "inserts_max": 8726
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 437,
+                    "inserts_max": 1021
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 411,
+                    "inserts_max": 1257
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 4433,
+                    "inserts_max": 9991
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 4235,
+                    "inserts_max": 10454
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 3747,
+                    "inserts_max": 8128
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 4333,
+                    "inserts_max": 9824
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 3811,
+                    "inserts_max": 10376
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 394,
+                    "inserts_max": 1124
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 400,
+                    "inserts_max": 889
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 4223,
+                    "inserts_max": 9381
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 4138,
+                    "inserts_max": 12687
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 4419,
+                    "inserts_max": 11827
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 4097,
+                    "inserts_max": 9102
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 4227,
+                    "inserts_max": 12496
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 386,
+                    "inserts_max": 895
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 447,
+                    "inserts_max": 1026
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 3925,
+                    "inserts_max": 10558
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 4157,
+                    "inserts_max": 12102
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 4261,
+                    "inserts_max": 9943
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 3977,
+                    "inserts_max": 12253
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 4150,
+                    "inserts_max": 11213
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 431,
+                    "inserts_max": 928
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 441,
+                    "inserts_max": 950
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 4101,
+                    "inserts_max": 9717
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 4374,
+                    "inserts_max": 13163
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 3823,
+                    "inserts_max": 8382
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 4116,
+                    "inserts_max": 8659
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 4375,
+                    "inserts_max": 13274
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 377,
+                    "inserts_max": 1128
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 447,
+                    "inserts_max": 1059
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 3694,
+                    "inserts_max": 7887
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 3750,
+                    "inserts_max": 8481
+                }
+            ]
+        },
+        {
+            "table_name": "events",
+            "database_name": "cinemas",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 3875,
+                    "inserts_max": 10849
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 460,
+                    "inserts_max": 1011
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 425,
+                    "inserts_max": 1241
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 4534,
+                    "inserts_max": 13818
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 4564,
+                    "inserts_max": 10316
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 4377,
+                    "inserts_max": 12894
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 4425,
+                    "inserts_max": 13119
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 4001,
+                    "inserts_max": 11093
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 428,
+                    "inserts_max": 1016
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 459,
+                    "inserts_max": 1109
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 4495,
+                    "inserts_max": 10645
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 3888,
+                    "inserts_max": 9060
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 4408,
+                    "inserts_max": 10140
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 4263,
+                    "inserts_max": 8819
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 4149,
+                    "inserts_max": 8402
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 418,
+                    "inserts_max": 1187
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 417,
+                    "inserts_max": 942
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 4392,
+                    "inserts_max": 9327
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 4635,
+                    "inserts_max": 9992
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 4697,
+                    "inserts_max": 10198
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 4538,
+                    "inserts_max": 10079
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 4213,
+                    "inserts_max": 9641
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 440,
+                    "inserts_max": 1247
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 402,
+                    "inserts_max": 1209
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 4431,
+                    "inserts_max": 11369
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 4370,
+                    "inserts_max": 10837
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 4333,
+                    "inserts_max": 9893
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 4538,
+                    "inserts_max": 11258
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 4351,
+                    "inserts_max": 8793
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 440,
+                    "inserts_max": 1346
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 413,
+                    "inserts_max": 1186
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 4110,
+                    "inserts_max": 11942
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 4202,
+                    "inserts_max": 12102
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 4682,
+                    "inserts_max": 11560
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 4257,
+                    "inserts_max": 12940
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 4171,
+                    "inserts_max": 11397
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 413,
+                    "inserts_max": 1042
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 448,
+                    "inserts_max": 1220
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 4128,
+                    "inserts_max": 11399
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 4102,
+                    "inserts_max": 8843
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 3866,
+                    "inserts_max": 8709
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 3870,
+                    "inserts_max": 11087
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 4683,
+                    "inserts_max": 10945
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 463,
+                    "inserts_max": 1016
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 464,
+                    "inserts_max": 1087
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 4419,
+                    "inserts_max": 10332
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 4663,
+                    "inserts_max": 12473
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 4219,
+                    "inserts_max": 10484
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 4643,
+                    "inserts_max": 9807
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 4089,
+                    "inserts_max": 9082
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 431,
+                    "inserts_max": 1304
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 452,
+                    "inserts_max": 1076
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 3997,
+                    "inserts_max": 8617
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 4077,
+                    "inserts_max": 9755
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 4614,
+                    "inserts_max": 13027
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 4678,
+                    "inserts_max": 11484
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 4299,
+                    "inserts_max": 12968
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 447,
+                    "inserts_max": 1058
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 437,
+                    "inserts_max": 1307
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 4186,
+                    "inserts_max": 8743
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 3887,
+                    "inserts_max": 11774
+                }
+            ]
+        },
+        {
+            "table_name": "sales",
+            "database_name": "cinemas",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 1093,
+                    "inserts_max": 2873
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 107,
+                    "inserts_max": 272
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 103,
+                    "inserts_max": 249
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 1215,
+                    "inserts_max": 3673
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 1114,
+                    "inserts_max": 3168
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 1004,
+                    "inserts_max": 2488
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 1046,
+                    "inserts_max": 2852
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 1119,
+                    "inserts_max": 2310
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 115,
+                    "inserts_max": 354
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 103,
+                    "inserts_max": 268
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 1150,
+                    "inserts_max": 2610
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 1156,
+                    "inserts_max": 3006
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 1026,
+                    "inserts_max": 2489
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 1176,
+                    "inserts_max": 2853
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 1108,
+                    "inserts_max": 3315
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 100,
+                    "inserts_max": 260
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 115,
+                    "inserts_max": 239
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 1143,
+                    "inserts_max": 2735
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 1055,
+                    "inserts_max": 3250
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 1005,
+                    "inserts_max": 2957
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 1101,
+                    "inserts_max": 2694
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 1170,
+                    "inserts_max": 3529
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 109,
+                    "inserts_max": 250
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 108,
+                    "inserts_max": 294
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 1222,
+                    "inserts_max": 3370
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 1222,
+                    "inserts_max": 3519
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 1048,
+                    "inserts_max": 2564
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 1120,
+                    "inserts_max": 3373
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 1108,
+                    "inserts_max": 3363
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 100,
+                    "inserts_max": 256
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 100,
+                    "inserts_max": 236
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 1070,
+                    "inserts_max": 2444
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 1082,
+                    "inserts_max": 2916
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 1162,
+                    "inserts_max": 2566
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 1024,
+                    "inserts_max": 2476
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 1066,
+                    "inserts_max": 2380
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 106,
+                    "inserts_max": 244
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 117,
+                    "inserts_max": 252
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 1199,
+                    "inserts_max": 2444
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 1036,
+                    "inserts_max": 2294
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 1019,
+                    "inserts_max": 2906
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 1042,
+                    "inserts_max": 2896
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 1102,
+                    "inserts_max": 2666
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 107,
+                    "inserts_max": 240
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 109,
+                    "inserts_max": 266
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 1183,
+                    "inserts_max": 3633
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 1215,
+                    "inserts_max": 3716
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 1147,
+                    "inserts_max": 2967
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 1082,
+                    "inserts_max": 3288
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 1081,
+                    "inserts_max": 3168
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 106,
+                    "inserts_max": 225
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 113,
+                    "inserts_max": 233
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 1143,
+                    "inserts_max": 3109
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 1055,
+                    "inserts_max": 2276
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 1039,
+                    "inserts_max": 2120
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 1005,
+                    "inserts_max": 2603
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 1183,
+                    "inserts_max": 3232
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 110,
+                    "inserts_max": 292
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 112,
+                    "inserts_max": 330
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 1120,
+                    "inserts_max": 2364
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 1142,
+                    "inserts_max": 2966
+                }
+            ]
+        },
+        {
+            "table_name": "clients",
+            "database_name": "cinemas",
+            "days": [
+                {
+                    "measure_date": "2019-11-01",
+                    "inserts_min": 195,
+                    "inserts_max": 504
+                },
+                {
+                    "measure_date": "2019-11-02",
+                    "inserts_min": 16,
+                    "inserts_max": 49
+                },
+                {
+                    "measure_date": "2019-11-03",
+                    "inserts_min": 20,
+                    "inserts_max": 54
+                },
+                {
+                    "measure_date": "2019-11-04",
+                    "inserts_min": 184,
+                    "inserts_max": 558
+                },
+                {
+                    "measure_date": "2019-11-05",
+                    "inserts_min": 168,
+                    "inserts_max": 375
+                },
+                {
+                    "measure_date": "2019-11-06",
+                    "inserts_min": 198,
+                    "inserts_max": 403
+                },
+                {
+                    "measure_date": "2019-11-07",
+                    "inserts_min": 193,
+                    "inserts_max": 443
+                },
+                {
+                    "measure_date": "2019-11-08",
+                    "inserts_min": 174,
+                    "inserts_max": 439
+                },
+                {
+                    "measure_date": "2019-11-09",
+                    "inserts_min": 18,
+                    "inserts_max": 48
+                },
+                {
+                    "measure_date": "2019-11-10",
+                    "inserts_min": 19,
+                    "inserts_max": 44
+                },
+                {
+                    "measure_date": "2019-11-11",
+                    "inserts_min": 203,
+                    "inserts_max": 429
+                },
+                {
+                    "measure_date": "2019-11-12",
+                    "inserts_min": 168,
+                    "inserts_max": 462
+                },
+                {
+                    "measure_date": "2019-11-13",
+                    "inserts_min": 188,
+                    "inserts_max": 511
+                },
+                {
+                    "measure_date": "2019-11-14",
+                    "inserts_min": 199,
+                    "inserts_max": 425
+                },
+                {
+                    "measure_date": "2019-11-15",
+                    "inserts_min": 186,
+                    "inserts_max": 531
+                },
+                {
+                    "measure_date": "2019-11-16",
+                    "inserts_min": 18,
+                    "inserts_max": 48
+                },
+                {
+                    "measure_date": "2019-11-17",
+                    "inserts_min": 17,
+                    "inserts_max": 34
+                },
+                {
+                    "measure_date": "2019-11-18",
+                    "inserts_min": 183,
+                    "inserts_max": 389
+                },
+                {
+                    "measure_date": "2019-11-19",
+                    "inserts_min": 179,
+                    "inserts_max": 547
+                },
+                {
+                    "measure_date": "2019-11-20",
+                    "inserts_min": 186,
+                    "inserts_max": 543
+                },
+                {
+                    "measure_date": "2019-11-21",
+                    "inserts_min": 193,
+                    "inserts_max": 486
+                },
+                {
+                    "measure_date": "2019-11-22",
+                    "inserts_min": 204,
+                    "inserts_max": 453
+                },
+                {
+                    "measure_date": "2019-11-23",
+                    "inserts_min": 17,
+                    "inserts_max": 38
+                },
+                {
+                    "measure_date": "2019-11-24",
+                    "inserts_min": 19,
+                    "inserts_max": 46
+                },
+                {
+                    "measure_date": "2019-11-25",
+                    "inserts_min": 184,
+                    "inserts_max": 475
+                },
+                {
+                    "measure_date": "2019-11-26",
+                    "inserts_min": 175,
+                    "inserts_max": 501
+                },
+                {
+                    "measure_date": "2019-11-27",
+                    "inserts_min": 184,
+                    "inserts_max": 413
+                },
+                {
+                    "measure_date": "2019-11-28",
+                    "inserts_min": 168,
+                    "inserts_max": 472
+                },
+                {
+                    "measure_date": "2019-11-29",
+                    "inserts_min": 188,
+                    "inserts_max": 474
+                },
+                {
+                    "measure_date": "2019-11-30",
+                    "inserts_min": 16,
+                    "inserts_max": 35
+                },
+                {
+                    "measure_date": "2019-12-01",
+                    "inserts_min": 17,
+                    "inserts_max": 44
+                },
+                {
+                    "measure_date": "2019-12-02",
+                    "inserts_min": 176,
+                    "inserts_max": 481
+                },
+                {
+                    "measure_date": "2019-12-03",
+                    "inserts_min": 177,
+                    "inserts_max": 520
+                },
+                {
+                    "measure_date": "2019-12-04",
+                    "inserts_min": 176,
+                    "inserts_max": 406
+                },
+                {
+                    "measure_date": "2019-12-05",
+                    "inserts_min": 171,
+                    "inserts_max": 442
+                },
+                {
+                    "measure_date": "2019-12-06",
+                    "inserts_min": 200,
+                    "inserts_max": 538
+                },
+                {
+                    "measure_date": "2019-12-07",
+                    "inserts_min": 18,
+                    "inserts_max": 44
+                },
+                {
+                    "measure_date": "2019-12-08",
+                    "inserts_min": 18,
+                    "inserts_max": 44
+                },
+                {
+                    "measure_date": "2019-12-09",
+                    "inserts_min": 191,
+                    "inserts_max": 521
+                },
+                {
+                    "measure_date": "2019-12-10",
+                    "inserts_min": 186,
+                    "inserts_max": 422
+                },
+                {
+                    "measure_date": "2019-12-11",
+                    "inserts_min": 183,
+                    "inserts_max": 514
+                },
+                {
+                    "measure_date": "2019-12-12",
+                    "inserts_min": 194,
+                    "inserts_max": 390
+                },
+                {
+                    "measure_date": "2019-12-13",
+                    "inserts_min": 173,
+                    "inserts_max": 383
+                },
+                {
+                    "measure_date": "2019-12-14",
+                    "inserts_min": 19,
+                    "inserts_max": 42
+                },
+                {
+                    "measure_date": "2019-12-15",
+                    "inserts_min": 17,
+                    "inserts_max": 51
+                },
+                {
+                    "measure_date": "2019-12-16",
+                    "inserts_min": 189,
+                    "inserts_max": 501
+                },
+                {
+                    "measure_date": "2019-12-17",
+                    "inserts_min": 171,
+                    "inserts_max": 467
+                },
+                {
+                    "measure_date": "2019-12-18",
+                    "inserts_min": 184,
+                    "inserts_max": 490
+                },
+                {
+                    "measure_date": "2019-12-19",
+                    "inserts_min": 167,
+                    "inserts_max": 416
+                },
+                {
+                    "measure_date": "2019-12-20",
+                    "inserts_min": 178,
+                    "inserts_max": 474
+                },
+                {
+                    "measure_date": "2019-12-21",
+                    "inserts_min": 17,
+                    "inserts_max": 45
+                },
+                {
+                    "measure_date": "2019-12-22",
+                    "inserts_min": 19,
+                    "inserts_max": 38
+                },
+                {
+                    "measure_date": "2019-12-23",
+                    "inserts_min": 200,
+                    "inserts_max": 569
+                },
+                {
+                    "measure_date": "2019-12-24",
+                    "inserts_min": 172,
+                    "inserts_max": 385
+                },
+                {
+                    "measure_date": "2019-12-25",
+                    "inserts_min": 175,
+                    "inserts_max": 384
+                },
+                {
+                    "measure_date": "2019-12-26",
+                    "inserts_min": 200,
+                    "inserts_max": 437
+                },
+                {
+                    "measure_date": "2019-12-27",
+                    "inserts_min": 192,
+                    "inserts_max": 430
+                },
+                {
+                    "measure_date": "2019-12-28",
+                    "inserts_min": 20,
+                    "inserts_max": 43
+                },
+                {
+                    "measure_date": "2019-12-29",
+                    "inserts_min": 17,
+                    "inserts_max": 34
+                },
+                {
+                    "measure_date": "2019-12-30",
+                    "inserts_min": 170,
+                    "inserts_max": 486
+                },
+                {
+                    "measure_date": "2019-12-31",
+                    "inserts_min": 195,
+                    "inserts_max": 516
                 }
             ]
         }

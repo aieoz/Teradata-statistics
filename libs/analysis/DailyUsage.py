@@ -30,8 +30,12 @@ class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
             }
             sSQL = self.replace_sql(SQL, settings)
 
+            db_name = table_name.split(".")[0]
+            tb_name = table_name.split(".")[1]
+
             table_results = {
-                "table_name": table_name,
+                "table_name": tb_name,
+                "database_name": db_name,
                 "periods": []
             }
             for hour_id in pd.read_sql(sSQL, self.connection).values:

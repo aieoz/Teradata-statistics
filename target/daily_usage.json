@@ -1,7 +1,7 @@
 {
     "operation": "Daily usage",
-    "begin": "2020-03-20",
-    "end": "2020-05-20",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
             "table_name": "movies",
@@ -10,343 +10,2258 @@
                 {
                     "period_begin": "0:00",
                     "period_end": "1:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 500140.0,
+                    "uses_average": 7814.6875,
+                    "uses_max": 8481.0
                 },
                 {
                     "period_begin": "1:00",
                     "period_end": "2:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 211816.0,
+                    "uses_average": 3309.625,
+                    "uses_max": 3628.0
                 },
                 {
                     "period_begin": "2:00",
                     "period_end": "3:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 70520.0,
+                    "uses_average": 1101.875,
+                    "uses_max": 1213.0
                 },
                 {
                     "period_begin": "3:00",
                     "period_end": "4:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 35242.0,
+                    "uses_average": 550.65625,
+                    "uses_max": 602.0
                 },
                 {
                     "period_begin": "4:00",
                     "period_end": "5:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 35084.0,
+                    "uses_average": 548.1875,
+                    "uses_max": 596.0
                 },
                 {
                     "period_begin": "5:00",
                     "period_end": "6:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 35796.0,
+                    "uses_average": 559.3125,
+                    "uses_max": 606.0
                 },
                 {
                     "period_begin": "6:00",
                     "period_end": "7:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 70154.0,
+                    "uses_average": 1096.15625,
+                    "uses_max": 1213.0
                 },
                 {
                     "period_begin": "7:00",
                     "period_end": "8:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 143004.0,
+                    "uses_average": 2234.4375,
+                    "uses_max": 2427.0
                 },
                 {
                     "period_begin": "8:00",
                     "period_end": "9:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 554688.0,
+                    "uses_average": 8667.0,
+                    "uses_max": 9708.0
                 },
                 {
                     "period_begin": "9:00",
                     "period_end": "10:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 604570.0,
+                    "uses_average": 9446.40625,
+                    "uses_max": 10298.0
                 },
                 {
                     "period_begin": "10:00",
                     "period_end": "11:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 642578.0,
+                    "uses_average": 10040.28125,
+                    "uses_max": 10904.0
                 },
                 {
                     "period_begin": "11:00",
                     "period_end": "12:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 597056.0,
+                    "uses_average": 9329.0,
+                    "uses_max": 10315.0
                 },
                 {
                     "period_begin": "12:00",
                     "period_end": "13:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 664041.0,
+                    "uses_average": 10375.640625,
+                    "uses_max": 11510.0
                 },
                 {
                     "period_begin": "13:00",
                     "period_end": "14:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 670957.0,
+                    "uses_average": 10483.703125,
+                    "uses_max": 11491.0
                 },
                 {
                     "period_begin": "14:00",
                     "period_end": "15:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 705984.0,
+                    "uses_average": 11031.0,
+                    "uses_max": 12116.0
                 },
                 {
                     "period_begin": "15:00",
                     "period_end": "16:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 560704.0,
+                    "uses_average": 8761.0,
+                    "uses_max": 9660.0
                 },
                 {
                     "period_begin": "16:00",
                     "period_end": "17:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 350242.0,
+                    "uses_average": 5472.53125,
+                    "uses_max": 6038.0
                 },
                 {
                     "period_begin": "17:00",
                     "period_end": "18:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 284344.0,
+                    "uses_average": 4442.875,
+                    "uses_max": 4854.0
                 },
                 {
                     "period_begin": "18:00",
                     "period_end": "19:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 106430.0,
+                    "uses_average": 1662.96875,
+                    "uses_max": 1820.0
                 },
                 {
                     "period_begin": "19:00",
                     "period_end": "20:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 35451.0,
+                    "uses_average": 553.921875,
+                    "uses_max": 605.0
                 },
                 {
                     "period_begin": "20:00",
                     "period_end": "21:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 35559.0,
+                    "uses_average": 555.609375,
+                    "uses_max": 606.0
                 },
                 {
                     "period_begin": "21:00",
                     "period_end": "22:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 35049.0,
+                    "uses_average": 547.640625,
+                    "uses_max": 603.0
                 },
                 {
                     "period_begin": "22:00",
                     "period_end": "23:00",
-                    "uses_total": 449.0,
-                    "uses_average": 7.241935483870968,
-                    "uses_max": 449.0
+                    "uses_total": 35159.0,
+                    "uses_average": 549.359375,
+                    "uses_max": 606.0
                 },
                 {
                     "period_begin": "23:00",
                     "period_end": "24:00",
-                    "uses_total": 301.0,
-                    "uses_average": 4.854838709677419,
-                    "uses_max": 301.0
+                    "uses_total": 104018.0,
+                    "uses_average": 1625.28125,
+                    "uses_max": 1778.0
                 }
             ]
         },
         {
-            "table_name": "DBC.DBQLObjTbl",
+            "table_name": "actors",
+            "database_name": "movies",
             "periods": [
                 {
                     "period_begin": "0:00",
                     "period_end": "1:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 407456.0,
+                    "uses_average": 6366.5,
+                    "uses_max": 6958.0
                 },
                 {
                     "period_begin": "1:00",
                     "period_end": "2:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 178398.0,
+                    "uses_average": 2787.46875,
+                    "uses_max": 3036.0
                 },
                 {
                     "period_begin": "2:00",
                     "period_end": "3:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 58554.0,
+                    "uses_average": 914.90625,
+                    "uses_max": 1010.0
                 },
                 {
                     "period_begin": "3:00",
                     "period_end": "4:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 29276.0,
+                    "uses_average": 457.4375,
+                    "uses_max": 506.0
                 },
                 {
                     "period_begin": "4:00",
                     "period_end": "5:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 29423.0,
+                    "uses_average": 459.734375,
+                    "uses_max": 506.0
                 },
                 {
                     "period_begin": "5:00",
                     "period_end": "6:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 29459.0,
+                    "uses_average": 460.296875,
+                    "uses_max": 506.0
                 },
                 {
                     "period_begin": "6:00",
                     "period_end": "7:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 59198.0,
+                    "uses_average": 924.96875,
+                    "uses_max": 1012.0
                 },
                 {
                     "period_begin": "7:00",
                     "period_end": "8:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 118732.0,
+                    "uses_average": 1855.1875,
+                    "uses_max": 2024.0
                 },
                 {
                     "period_begin": "8:00",
                     "period_end": "9:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 472336.0,
+                    "uses_average": 7380.25,
+                    "uses_max": 8096.0
                 },
                 {
                     "period_begin": "9:00",
                     "period_end": "10:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 506447.0,
+                    "uses_average": 7913.234375,
+                    "uses_max": 8602.0
                 },
                 {
                     "period_begin": "10:00",
                     "period_end": "11:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 534420.0,
+                    "uses_average": 8350.3125,
+                    "uses_max": 9090.0
                 },
                 {
                     "period_begin": "11:00",
                     "period_end": "12:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 491096.0,
+                    "uses_average": 7673.375,
+                    "uses_max": 8585.0
                 },
                 {
                     "period_begin": "12:00",
                     "period_end": "13:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 560671.0,
+                    "uses_average": 8760.484375,
+                    "uses_max": 9538.0
                 },
                 {
                     "period_begin": "13:00",
                     "period_end": "14:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 553945.0,
+                    "uses_average": 8655.390625,
+                    "uses_max": 9557.0
                 },
                 {
                     "period_begin": "14:00",
                     "period_end": "15:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 590460.0,
+                    "uses_average": 9225.9375,
+                    "uses_max": 10080.0
                 },
                 {
                     "period_begin": "15:00",
                     "period_end": "16:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 472832.0,
+                    "uses_average": 7388.0,
+                    "uses_max": 8096.0
                 },
                 {
                     "period_begin": "16:00",
                     "period_end": "17:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 292730.0,
+                    "uses_average": 4573.90625,
+                    "uses_max": 5060.0
                 },
                 {
                     "period_begin": "17:00",
                     "period_end": "18:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 234312.0,
+                    "uses_average": 3661.125,
+                    "uses_max": 4048.0
                 },
                 {
                     "period_begin": "18:00",
                     "period_end": "19:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 89082.0,
+                    "uses_average": 1391.90625,
+                    "uses_max": 1518.0
                 },
                 {
                     "period_begin": "19:00",
                     "period_end": "20:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 30008.0,
+                    "uses_average": 468.875,
+                    "uses_max": 505.0
                 },
                 {
                     "period_begin": "20:00",
                     "period_end": "21:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 29429.0,
+                    "uses_average": 459.828125,
+                    "uses_max": 505.0
                 },
                 {
                     "period_begin": "21:00",
                     "period_end": "22:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 29289.0,
+                    "uses_average": 457.640625,
+                    "uses_max": 506.0
                 },
                 {
                     "period_begin": "22:00",
                     "period_end": "23:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 29568.0,
+                    "uses_average": 462.0,
+                    "uses_max": 504.0
                 },
                 {
                     "period_begin": "23:00",
                     "period_end": "24:00",
-                    "uses_total": 0.0,
-                    "uses_average": 0.0,
-                    "uses_max": 0.0
+                    "uses_total": 88104.0,
+                    "uses_average": 1376.625,
+                    "uses_max": 1509.0
+                }
+            ]
+        },
+        {
+            "table_name": "directors",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 207018.0,
+                    "uses_average": 3234.65625,
+                    "uses_max": 3542.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 88302.0,
+                    "uses_average": 1379.71875,
+                    "uses_max": 1512.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 29424.0,
+                    "uses_average": 459.75,
+                    "uses_max": 506.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 14818.0,
+                    "uses_average": 231.53125,
+                    "uses_max": 252.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 14892.0,
+                    "uses_average": 232.6875,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 14726.0,
+                    "uses_average": 230.09375,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 29402.0,
+                    "uses_average": 459.40625,
+                    "uses_max": 506.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 57664.0,
+                    "uses_average": 901.0,
+                    "uses_max": 1012.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 238976.0,
+                    "uses_average": 3734.0,
+                    "uses_max": 4048.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 247843.0,
+                    "uses_average": 3872.546875,
+                    "uses_max": 4301.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 265230.0,
+                    "uses_average": 4144.21875,
+                    "uses_max": 4554.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 251022.0,
+                    "uses_average": 3922.21875,
+                    "uses_max": 4301.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 279414.0,
+                    "uses_average": 4365.84375,
+                    "uses_max": 4807.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 275291.0,
+                    "uses_average": 4301.421875,
+                    "uses_max": 4807.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 295720.0,
+                    "uses_average": 4620.625,
+                    "uses_max": 5060.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 235040.0,
+                    "uses_average": 3672.5,
+                    "uses_max": 4048.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 146860.0,
+                    "uses_average": 2294.6875,
+                    "uses_max": 2530.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 119232.0,
+                    "uses_average": 1863.0,
+                    "uses_max": 2024.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 44259.0,
+                    "uses_average": 691.546875,
+                    "uses_max": 753.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 14571.0,
+                    "uses_average": 227.671875,
+                    "uses_max": 251.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 14715.0,
+                    "uses_average": 229.921875,
+                    "uses_max": 250.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 14786.0,
+                    "uses_average": 231.03125,
+                    "uses_max": 251.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 14644.0,
+                    "uses_average": 228.8125,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 44583.0,
+                    "uses_average": 696.609375,
+                    "uses_max": 759.0
+                }
+            ]
+        },
+        {
+            "table_name": "directors_genres",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 229210.0,
+                    "uses_average": 3581.40625,
+                    "uses_max": 3887.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 96778.0,
+                    "uses_average": 1512.15625,
+                    "uses_max": 1666.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 32378.0,
+                    "uses_average": 505.90625,
+                    "uses_max": 555.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 16259.0,
+                    "uses_average": 254.046875,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 16045.0,
+                    "uses_average": 250.703125,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 16007.0,
+                    "uses_average": 250.109375,
+                    "uses_max": 276.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 32138.0,
+                    "uses_average": 502.15625,
+                    "uses_max": 555.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 64796.0,
+                    "uses_average": 1012.4375,
+                    "uses_max": 1110.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 260816.0,
+                    "uses_average": 4075.25,
+                    "uses_max": 4443.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 273979.0,
+                    "uses_average": 4280.921875,
+                    "uses_max": 4686.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 289380.0,
+                    "uses_average": 4521.5625,
+                    "uses_max": 4980.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 279113.0,
+                    "uses_average": 4361.140625,
+                    "uses_max": 4720.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 299968.0,
+                    "uses_average": 4687.0,
+                    "uses_max": 5257.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 308670.0,
+                    "uses_average": 4822.96875,
+                    "uses_max": 5276.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 321996.0,
+                    "uses_average": 5031.1875,
+                    "uses_max": 5554.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 258528.0,
+                    "uses_average": 4039.5,
+                    "uses_max": 4443.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 161538.0,
+                    "uses_average": 2524.03125,
+                    "uses_max": 2777.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 129400.0,
+                    "uses_average": 2021.875,
+                    "uses_max": 2221.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 48629.0,
+                    "uses_average": 759.828125,
+                    "uses_max": 830.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 16205.0,
+                    "uses_average": 253.203125,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 16171.0,
+                    "uses_average": 252.671875,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 16290.0,
+                    "uses_average": 254.53125,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 16276.0,
+                    "uses_average": 254.3125,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 48305.0,
+                    "uses_average": 754.765625,
+                    "uses_max": 833.0
+                }
+            ]
+        },
+        {
+            "table_name": "movies_directors",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 204358.0,
+                    "uses_average": 3193.09375,
+                    "uses_max": 3542.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 87624.0,
+                    "uses_average": 1369.125,
+                    "uses_max": 1512.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 29700.0,
+                    "uses_average": 464.0625,
+                    "uses_max": 504.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 14757.0,
+                    "uses_average": 230.578125,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 14658.0,
+                    "uses_average": 229.03125,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 14864.0,
+                    "uses_average": 232.25,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 29606.0,
+                    "uses_average": 462.59375,
+                    "uses_max": 504.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 58980.0,
+                    "uses_average": 921.5625,
+                    "uses_max": 1012.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 234128.0,
+                    "uses_average": 3658.25,
+                    "uses_max": 4048.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 250410.0,
+                    "uses_average": 3912.65625,
+                    "uses_max": 4301.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 264168.0,
+                    "uses_average": 4127.625,
+                    "uses_max": 4554.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 249118.0,
+                    "uses_average": 3892.46875,
+                    "uses_max": 4284.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 279927.0,
+                    "uses_average": 4373.859375,
+                    "uses_max": 4788.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 276925.0,
+                    "uses_average": 4326.953125,
+                    "uses_max": 4807.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 293780.0,
+                    "uses_average": 4590.3125,
+                    "uses_max": 5060.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 233360.0,
+                    "uses_average": 3646.25,
+                    "uses_max": 4048.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 150060.0,
+                    "uses_average": 2344.6875,
+                    "uses_max": 2530.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 119960.0,
+                    "uses_average": 1874.375,
+                    "uses_max": 2024.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 44304.0,
+                    "uses_average": 692.25,
+                    "uses_max": 759.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 14815.0,
+                    "uses_average": 231.484375,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 14539.0,
+                    "uses_average": 227.171875,
+                    "uses_max": 246.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 14647.0,
+                    "uses_average": 228.859375,
+                    "uses_max": 252.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 14671.0,
+                    "uses_average": 229.234375,
+                    "uses_max": 253.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 44409.0,
+                    "uses_average": 693.890625,
+                    "uses_max": 759.0
+                }
+            ]
+        },
+        {
+            "table_name": "movies_genres",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 165110.0,
+                    "uses_average": 2579.84375,
+                    "uses_max": 2822.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 70098.0,
+                    "uses_average": 1095.28125,
+                    "uses_max": 1209.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 23826.0,
+                    "uses_average": 372.28125,
+                    "uses_max": 403.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 11749.0,
+                    "uses_average": 183.578125,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 11610.0,
+                    "uses_average": 181.40625,
+                    "uses_max": 200.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 11800.0,
+                    "uses_average": 184.375,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 23436.0,
+                    "uses_average": 366.1875,
+                    "uses_max": 403.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 47184.0,
+                    "uses_average": 737.25,
+                    "uses_max": 806.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 188880.0,
+                    "uses_average": 2951.25,
+                    "uses_max": 3209.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 199812.0,
+                    "uses_average": 3122.0625,
+                    "uses_max": 3427.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 210772.0,
+                    "uses_average": 3293.3125,
+                    "uses_max": 3628.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 198758.0,
+                    "uses_average": 3105.59375,
+                    "uses_max": 3410.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 224543.0,
+                    "uses_average": 3508.484375,
+                    "uses_max": 3830.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 222605.0,
+                    "uses_average": 3478.203125,
+                    "uses_max": 3830.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 233748.0,
+                    "uses_average": 3652.3125,
+                    "uses_max": 4032.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 187120.0,
+                    "uses_average": 2923.75,
+                    "uses_max": 3225.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 117494.0,
+                    "uses_average": 1835.84375,
+                    "uses_max": 2006.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 93520.0,
+                    "uses_average": 1461.25,
+                    "uses_max": 1612.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 35089.0,
+                    "uses_average": 548.265625,
+                    "uses_max": 604.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 11732.0,
+                    "uses_average": 183.3125,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 11740.0,
+                    "uses_average": 183.4375,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 11772.0,
+                    "uses_average": 183.9375,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 11876.0,
+                    "uses_average": 185.5625,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 35266.0,
+                    "uses_average": 551.03125,
+                    "uses_max": 604.0
+                }
+            ]
+        },
+        {
+            "table_name": "roles",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 164298.0,
+                    "uses_average": 2567.15625,
+                    "uses_max": 2822.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 70842.0,
+                    "uses_average": 1106.90625,
+                    "uses_max": 1209.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 23748.0,
+                    "uses_average": 371.0625,
+                    "uses_max": 403.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 11785.0,
+                    "uses_average": 184.140625,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 11674.0,
+                    "uses_average": 182.40625,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 11603.0,
+                    "uses_average": 181.296875,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 23518.0,
+                    "uses_average": 367.46875,
+                    "uses_max": 403.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 47004.0,
+                    "uses_average": 734.4375,
+                    "uses_max": 806.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 190912.0,
+                    "uses_average": 2983.0,
+                    "uses_max": 3225.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 199064.0,
+                    "uses_average": 3110.375,
+                    "uses_max": 3427.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 212284.0,
+                    "uses_average": 3316.9375,
+                    "uses_max": 3628.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 201495.0,
+                    "uses_average": 3148.359375,
+                    "uses_max": 3427.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 222700.0,
+                    "uses_average": 3479.6875,
+                    "uses_max": 3811.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 223935.0,
+                    "uses_average": 3498.984375,
+                    "uses_max": 3830.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 232708.0,
+                    "uses_average": 3636.0625,
+                    "uses_max": 4032.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 189248.0,
+                    "uses_average": 2957.0,
+                    "uses_max": 3225.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 116654.0,
+                    "uses_average": 1822.71875,
+                    "uses_max": 2006.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 93552.0,
+                    "uses_average": 1461.75,
+                    "uses_max": 1604.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 35098.0,
+                    "uses_average": 548.40625,
+                    "uses_max": 604.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 11754.0,
+                    "uses_average": 183.65625,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 11660.0,
+                    "uses_average": 182.1875,
+                    "uses_max": 200.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 11682.0,
+                    "uses_average": 182.53125,
+                    "uses_max": 200.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 11667.0,
+                    "uses_average": 182.296875,
+                    "uses_max": 201.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 34933.0,
+                    "uses_average": 545.828125,
+                    "uses_max": 604.0
+                }
+            ]
+        },
+        {
+            "table_name": "buildings",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 122614.0,
+                    "uses_average": 1915.84375,
+                    "uses_max": 2116.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 53578.0,
+                    "uses_average": 837.15625,
+                    "uses_max": 907.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 17674.0,
+                    "uses_average": 276.15625,
+                    "uses_max": 302.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 8762.0,
+                    "uses_average": 136.90625,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 8761.0,
+                    "uses_average": 136.890625,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 8818.0,
+                    "uses_average": 137.78125,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 17606.0,
+                    "uses_average": 275.09375,
+                    "uses_max": 300.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 35452.0,
+                    "uses_average": 553.9375,
+                    "uses_max": 604.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 143056.0,
+                    "uses_average": 2235.25,
+                    "uses_max": 2419.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 149843.0,
+                    "uses_average": 2341.296875,
+                    "uses_max": 2536.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 159006.0,
+                    "uses_average": 2484.46875,
+                    "uses_max": 2721.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 148160.0,
+                    "uses_average": 2315.0,
+                    "uses_max": 2570.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 164808.0,
+                    "uses_average": 2575.125,
+                    "uses_max": 2872.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 167829.0,
+                    "uses_average": 2622.328125,
+                    "uses_max": 2872.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 173796.0,
+                    "uses_average": 2715.5625,
+                    "uses_max": 3024.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 141920.0,
+                    "uses_average": 2217.5,
+                    "uses_max": 2419.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 88618.0,
+                    "uses_average": 1384.65625,
+                    "uses_max": 1512.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 69952.0,
+                    "uses_average": 1093.0,
+                    "uses_max": 1209.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 26727.0,
+                    "uses_average": 417.609375,
+                    "uses_max": 453.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 8806.0,
+                    "uses_average": 137.59375,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 8887.0,
+                    "uses_average": 138.859375,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 8846.0,
+                    "uses_average": 138.21875,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 8805.0,
+                    "uses_average": 137.578125,
+                    "uses_max": 151.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 26418.0,
+                    "uses_average": 412.78125,
+                    "uses_max": 453.0
+                }
+            ]
+        },
+        {
+            "table_name": "owners",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 20316.0,
+                    "uses_average": 317.4375,
+                    "uses_max": 345.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 8722.0,
+                    "uses_average": 136.28125,
+                    "uses_max": 148.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 2884.0,
+                    "uses_average": 45.0625,
+                    "uses_max": 49.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 1410.0,
+                    "uses_average": 22.03125,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 1425.0,
+                    "uses_average": 22.265625,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 1428.0,
+                    "uses_average": 22.3125,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 2862.0,
+                    "uses_average": 44.71875,
+                    "uses_max": 49.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 5772.0,
+                    "uses_average": 90.1875,
+                    "uses_max": 98.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 23328.0,
+                    "uses_average": 364.5,
+                    "uses_max": 395.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 24504.0,
+                    "uses_average": 382.875,
+                    "uses_max": 419.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 26346.0,
+                    "uses_average": 411.65625,
+                    "uses_max": 444.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 24147.0,
+                    "uses_average": 377.296875,
+                    "uses_max": 419.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 27432.0,
+                    "uses_average": 428.625,
+                    "uses_max": 469.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 28040.0,
+                    "uses_average": 438.125,
+                    "uses_max": 469.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 29056.0,
+                    "uses_average": 454.0,
+                    "uses_max": 494.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 23264.0,
+                    "uses_average": 363.5,
+                    "uses_max": 395.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 14488.0,
+                    "uses_average": 226.375,
+                    "uses_max": 247.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 11424.0,
+                    "uses_average": 178.5,
+                    "uses_max": 197.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 4400.0,
+                    "uses_average": 68.75,
+                    "uses_max": 74.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 1397.0,
+                    "uses_average": 21.828125,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 1395.0,
+                    "uses_average": 21.796875,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 1383.0,
+                    "uses_average": 21.609375,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 1417.0,
+                    "uses_average": 22.140625,
+                    "uses_max": 24.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 4439.0,
+                    "uses_average": 69.359375,
+                    "uses_max": 74.0
+                }
+            ]
+        },
+        {
+            "table_name": "premieres",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 246762.0,
+                    "uses_average": 3855.65625,
+                    "uses_max": 4233.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 106154.0,
+                    "uses_average": 1658.65625,
+                    "uses_max": 1820.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 35468.0,
+                    "uses_average": 554.1875,
+                    "uses_max": 604.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 17639.0,
+                    "uses_average": 275.609375,
+                    "uses_max": 303.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 17530.0,
+                    "uses_average": 273.90625,
+                    "uses_max": 303.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 17465.0,
+                    "uses_average": 272.890625,
+                    "uses_max": 301.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 35392.0,
+                    "uses_average": 553.0,
+                    "uses_max": 606.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 70396.0,
+                    "uses_average": 1099.9375,
+                    "uses_max": 1213.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 282192.0,
+                    "uses_average": 4409.25,
+                    "uses_max": 4854.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 298972.0,
+                    "uses_average": 4671.4375,
+                    "uses_max": 5140.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 318436.0,
+                    "uses_average": 4975.5625,
+                    "uses_max": 5461.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 298751.0,
+                    "uses_average": 4667.984375,
+                    "uses_max": 5140.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 335209.0,
+                    "uses_average": 5237.640625,
+                    "uses_max": 5764.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 337451.0,
+                    "uses_average": 5272.671875,
+                    "uses_max": 5764.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 351552.0,
+                    "uses_average": 5493.0,
+                    "uses_max": 6068.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 288112.0,
+                    "uses_average": 4501.75,
+                    "uses_max": 4838.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 179876.0,
+                    "uses_average": 2810.5625,
+                    "uses_max": 3034.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 140008.0,
+                    "uses_average": 2187.625,
+                    "uses_max": 2419.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 53176.0,
+                    "uses_average": 830.875,
+                    "uses_max": 907.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 17441.0,
+                    "uses_average": 272.515625,
+                    "uses_max": 303.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 17591.0,
+                    "uses_average": 274.859375,
+                    "uses_max": 303.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 17747.0,
+                    "uses_average": 277.296875,
+                    "uses_max": 303.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 17226.0,
+                    "uses_average": 269.15625,
+                    "uses_max": 303.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 53065.0,
+                    "uses_average": 829.140625,
+                    "uses_max": 907.0
+                }
+            ]
+        },
+        {
+            "table_name": "events",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 387678.0,
+                    "uses_average": 6057.46875,
+                    "uses_max": 6710.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 168046.0,
+                    "uses_average": 2625.71875,
+                    "uses_max": 2869.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 56134.0,
+                    "uses_average": 877.09375,
+                    "uses_max": 960.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 28043.0,
+                    "uses_average": 438.171875,
+                    "uses_max": 478.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 28072.0,
+                    "uses_average": 438.625,
+                    "uses_max": 479.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 27693.0,
+                    "uses_average": 432.703125,
+                    "uses_max": 479.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 55832.0,
+                    "uses_average": 872.375,
+                    "uses_max": 958.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 112560.0,
+                    "uses_average": 1758.75,
+                    "uses_max": 1917.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 443744.0,
+                    "uses_average": 6933.5,
+                    "uses_max": 7684.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 468840.0,
+                    "uses_average": 7325.625,
+                    "uses_max": 8114.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 507020.0,
+                    "uses_average": 7922.1875,
+                    "uses_max": 8645.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 475895.0,
+                    "uses_average": 7435.859375,
+                    "uses_max": 8114.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 534961.0,
+                    "uses_average": 8358.765625,
+                    "uses_max": 9125.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 530211.0,
+                    "uses_average": 8284.546875,
+                    "uses_max": 9106.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 559684.0,
+                    "uses_average": 8745.0625,
+                    "uses_max": 9586.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 449024.0,
+                    "uses_average": 7016.0,
+                    "uses_max": 7684.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 277722.0,
+                    "uses_average": 4339.40625,
+                    "uses_max": 4803.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 224696.0,
+                    "uses_average": 3510.875,
+                    "uses_max": 3826.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 84009.0,
+                    "uses_average": 1312.640625,
+                    "uses_max": 1440.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 27804.0,
+                    "uses_average": 434.4375,
+                    "uses_max": 480.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 28000.0,
+                    "uses_average": 437.5,
+                    "uses_max": 479.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 28406.0,
+                    "uses_average": 443.84375,
+                    "uses_max": 480.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 27777.0,
+                    "uses_average": 434.015625,
+                    "uses_max": 480.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 83700.0,
+                    "uses_average": 1307.8125,
+                    "uses_max": 1440.0
+                }
+            ]
+        },
+        {
+            "table_name": "sales",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 223554.0,
+                    "uses_average": 3493.03125,
+                    "uses_max": 3887.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 97600.0,
+                    "uses_average": 1525.0,
+                    "uses_max": 1660.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 32500.0,
+                    "uses_average": 507.8125,
+                    "uses_max": 555.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 16355.0,
+                    "uses_average": 255.546875,
+                    "uses_max": 276.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 16232.0,
+                    "uses_average": 253.625,
+                    "uses_max": 275.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 16183.0,
+                    "uses_average": 252.859375,
+                    "uses_max": 273.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 32088.0,
+                    "uses_average": 501.375,
+                    "uses_max": 553.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 64332.0,
+                    "uses_average": 1005.1875,
+                    "uses_max": 1106.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 255664.0,
+                    "uses_average": 3994.75,
+                    "uses_max": 4411.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 270052.0,
+                    "uses_average": 4219.5625,
+                    "uses_max": 4652.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 289884.0,
+                    "uses_average": 4529.4375,
+                    "uses_max": 4998.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 271463.0,
+                    "uses_average": 4241.609375,
+                    "uses_max": 4720.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 309601.0,
+                    "uses_average": 4837.515625,
+                    "uses_max": 5276.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 302951.0,
+                    "uses_average": 4733.609375,
+                    "uses_max": 5276.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 325916.0,
+                    "uses_average": 5092.4375,
+                    "uses_max": 5554.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 260976.0,
+                    "uses_average": 4077.75,
+                    "uses_max": 4427.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 162878.0,
+                    "uses_average": 2544.96875,
+                    "uses_max": 2777.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 129944.0,
+                    "uses_average": 2030.375,
+                    "uses_max": 2221.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 48605.0,
+                    "uses_average": 759.453125,
+                    "uses_max": 833.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 16072.0,
+                    "uses_average": 251.125,
+                    "uses_max": 276.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 16259.0,
+                    "uses_average": 254.046875,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 15989.0,
+                    "uses_average": 249.828125,
+                    "uses_max": 276.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 16231.0,
+                    "uses_average": 253.609375,
+                    "uses_max": 277.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 48266.0,
+                    "uses_average": 754.15625,
+                    "uses_max": 833.0
+                }
+            ]
+        },
+        {
+            "table_name": "clients",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "0:00",
+                    "period_end": "1:00",
+                    "uses_total": 4459320.0,
+                    "uses_average": 69676.875,
+                    "uses_max": 76592.0
+                },
+                {
+                    "period_begin": "1:00",
+                    "period_end": "2:00",
+                    "uses_total": 1927694.0,
+                    "uses_average": 30120.21875,
+                    "uses_max": 32777.0
+                },
+                {
+                    "period_begin": "2:00",
+                    "period_end": "3:00",
+                    "uses_total": 638894.0,
+                    "uses_average": 9982.71875,
+                    "uses_max": 10959.0
+                },
+                {
+                    "period_begin": "3:00",
+                    "period_end": "4:00",
+                    "uses_total": 322362.0,
+                    "uses_average": 5036.90625,
+                    "uses_max": 5484.0
+                },
+                {
+                    "period_begin": "4:00",
+                    "period_end": "5:00",
+                    "uses_total": 316169.0,
+                    "uses_average": 4940.140625,
+                    "uses_max": 5417.0
+                },
+                {
+                    "period_begin": "5:00",
+                    "period_end": "6:00",
+                    "uses_total": 318466.0,
+                    "uses_average": 4976.03125,
+                    "uses_max": 5482.0
+                },
+                {
+                    "period_begin": "6:00",
+                    "period_end": "7:00",
+                    "uses_total": 646414.0,
+                    "uses_average": 10100.21875,
+                    "uses_max": 10943.0
+                },
+                {
+                    "period_begin": "7:00",
+                    "period_end": "8:00",
+                    "uses_total": 1285168.0,
+                    "uses_average": 20080.75,
+                    "uses_max": 21847.0
+                },
+                {
+                    "period_begin": "8:00",
+                    "period_end": "9:00",
+                    "uses_total": 5083024.0,
+                    "uses_average": 79422.25,
+                    "uses_max": 87838.0
+                },
+                {
+                    "period_begin": "9:00",
+                    "period_end": "10:00",
+                    "uses_total": 5461105.0,
+                    "uses_average": 85329.765625,
+                    "uses_max": 93328.0
+                },
+                {
+                    "period_begin": "10:00",
+                    "period_end": "11:00",
+                    "uses_total": 5763472.0,
+                    "uses_average": 90054.25,
+                    "uses_max": 98818.0
+                },
+                {
+                    "period_begin": "11:00",
+                    "period_end": "12:00",
+                    "uses_total": 5437339.0,
+                    "uses_average": 84958.421875,
+                    "uses_max": 93260.0
+                },
+                {
+                    "period_begin": "12:00",
+                    "period_end": "13:00",
+                    "uses_total": 6089619.0,
+                    "uses_average": 95150.296875,
+                    "uses_max": 103985.0
+                },
+                {
+                    "period_begin": "13:00",
+                    "period_end": "14:00",
+                    "uses_total": 6012365.0,
+                    "uses_average": 93943.203125,
+                    "uses_max": 103966.0
+                },
+                {
+                    "period_begin": "14:00",
+                    "period_end": "15:00",
+                    "uses_total": 6357312.0,
+                    "uses_average": 99333.0,
+                    "uses_max": 109678.0
+                },
+                {
+                    "period_begin": "15:00",
+                    "period_end": "16:00",
+                    "uses_total": 5138592.0,
+                    "uses_average": 80290.5,
+                    "uses_max": 87838.0
+                },
+                {
+                    "period_begin": "16:00",
+                    "period_end": "17:00",
+                    "uses_total": 3210556.0,
+                    "uses_average": 50164.9375,
+                    "uses_max": 54889.0
+                },
+                {
+                    "period_begin": "17:00",
+                    "period_end": "18:00",
+                    "uses_total": 2579808.0,
+                    "uses_average": 40309.5,
+                    "uses_max": 43751.0
+                },
+                {
+                    "period_begin": "18:00",
+                    "period_end": "19:00",
+                    "uses_total": 952199.0,
+                    "uses_average": 14878.109375,
+                    "uses_max": 16349.0
+                },
+                {
+                    "period_begin": "19:00",
+                    "period_end": "20:00",
+                    "uses_total": 318908.0,
+                    "uses_average": 4982.9375,
+                    "uses_max": 5447.0
+                },
+                {
+                    "period_begin": "20:00",
+                    "period_end": "21:00",
+                    "uses_total": 322112.0,
+                    "uses_average": 5033.0,
+                    "uses_max": 5487.0
+                },
+                {
+                    "period_begin": "21:00",
+                    "period_end": "22:00",
+                    "uses_total": 319300.0,
+                    "uses_average": 4989.0625,
+                    "uses_max": 5476.0
+                },
+                {
+                    "period_begin": "22:00",
+                    "period_end": "23:00",
+                    "uses_total": 317104.0,
+                    "uses_average": 4954.75,
+                    "uses_max": 5451.0
+                },
+                {
+                    "period_begin": "23:00",
+                    "period_end": "24:00",
+                    "uses_total": 952889.0,
+                    "uses_average": 14888.890625,
+                    "uses_max": 16463.0
                 }
             ]
         }

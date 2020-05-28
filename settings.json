@@ -46,6 +46,16 @@
             ]
         },
         {
+            "name": "Traffic type by user",
+            "description": "Users",
+            "short": "TTU",
+            "target": "target/traffic_type_with_user.json",
+            "enabled": true,
+            "default_tables": [
+                "movies.movies"
+            ]
+        },
+        {
             "name": "Rows Actions",
             "description": "Count of rows modified/selected/created in some periods",
             "short": "ROW",

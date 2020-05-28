@@ -115,4 +115,5 @@ def check_table_name(connection, table):
     tables = [t[0] for t in tables.values]
     
     if table_name not in tables:
+        return
         raise Exception("Cannot find table: " + table)

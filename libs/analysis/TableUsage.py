@@ -24,15 +24,19 @@ class TableUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
             settings = {
                 "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
                 "DATABASE_NAME": table_name.split(".")[0],
-                "TABLE_NAME": table_name.split(".")[0],
+                "TABLE_NAME": table_name.split(".")[1],
                 "BEGIN": begin,
                 "END": end
             }
             sSQL = self.replace_sql(SQL, settings)
             # print(sSQL)
 
+            db_name = table_name.split(".")[0]
+            tb_name = table_name.split(".")[1]
+
             table_results = {
-                "table_name": table_name,
+                "table_name": tb_name,
+                "database_name": db_name,
                 "periods": []
             }
             for time_id in pd.read_sql(sSQL, self.connection).values:
@@ -43,7 +47,7 @@ class TableUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
                 table_results["periods"].append({
                     "period_begin": period_begin,
                     "period_end": period_end,
-                    "uses": total_uses
+                    "total": total_uses
                 })
             
             result["tables"].append(table_results)

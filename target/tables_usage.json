@@ -1,60 +1,733 @@
 {
     "operation": "Table usage",
-    "begin": "2020-03-20",
-    "end": "2020-05-20",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
-            "table_name": "movies.movies",
+            "table_name": "movies",
+            "database_name": "movies",
             "periods": [
                 {
-                    "period_begin": "2020-04-02",
-                    "period_end": "2020-04-08",
-                    "uses": 0
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 96357
                 },
                 {
-                    "period_begin": "2020-03-27",
-                    "period_end": "2020-04-02",
-                    "uses": 0
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 101370
                 },
                 {
-                    "period_begin": "2020-05-08",
-                    "period_end": "2020-05-14",
-                    "uses": 0
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 91593
                 },
                 {
-                    "period_begin": "2020-05-14",
-                    "period_end": "2020-05-20",
-                    "uses": 0
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 91534
                 },
                 {
-                    "period_begin": "2020-04-20",
-                    "period_end": "2020-04-26",
-                    "uses": 0
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 98106
                 },
                 {
-                    "period_begin": "2020-04-14",
-                    "period_end": "2020-04-20",
-                    "uses": 0
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 114518
                 },
                 {
-                    "period_begin": "2020-04-26",
-                    "period_end": "2020-05-02",
-                    "uses": 0
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 115569
                 },
                 {
-                    "period_begin": "2020-04-08",
-                    "period_end": "2020-04-14",
-                    "uses": 750
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 95094
                 },
                 {
-                    "period_begin": "2020-03-21",
-                    "period_end": "2020-03-27",
-                    "uses": 0
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 90294
                 },
                 {
-                    "period_begin": "2020-05-02",
-                    "period_end": "2020-05-08",
-                    "uses": 0
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 96614
+                }
+            ]
+        },
+        {
+            "table_name": "actors",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 84457
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 84660
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 83537
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 88150
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 84173
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 105146
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 105705
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 82098
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 86262
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 79833
+                }
+            ]
+        },
+        {
+            "table_name": "directors",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 93749
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 93204
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 95300
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 93185
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 95020
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 113923
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 113685
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 95491
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 92604
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 94774
+                }
+            ]
+        },
+        {
+            "table_name": "directors_genres",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 57474
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 55202
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 57273
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 58062
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 54131
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 67938
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 68722
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 54663
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 56649
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 58753
+                }
+            ]
+        },
+        {
+            "table_name": "movies_directors",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 76987
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 75300
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 74924
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 74409
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 71878
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 92353
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 97754
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 74833
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 73155
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 73754
+                }
+            ]
+        },
+        {
+            "table_name": "movies_genres",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 36986
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 37800
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 37131
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 36459
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 36682
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 45777
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 45484
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 37109
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 37561
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 37573
+                }
+            ]
+        },
+        {
+            "table_name": "roles",
+            "database_name": "movies",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 184827
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 172683
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 185525
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 173225
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 184411
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 211714
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 230811
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 177922
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 176775
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 178590
+                }
+            ]
+        },
+        {
+            "table_name": "buildings",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 19897
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 19613
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 19439
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 19085
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 18868
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 22933
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 22734
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 18647
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 19170
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 18830
+                }
+            ]
+        },
+        {
+            "table_name": "owners",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 28348
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 26394
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 27723
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 27170
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 28607
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 34462
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 33642
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 29423
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 28329
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 28971
+                }
+            ]
+        },
+        {
+            "table_name": "premieres",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 203115
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 201118
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 210036
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 215356
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 198384
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 256495
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 250216
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 212447
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 212342
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 213401
+                }
+            ]
+        },
+        {
+            "table_name": "events",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 211277
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 222750
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 212211
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 228546
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 216266
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 267904
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 271017
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 212523
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 207993
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 223779
+                }
+            ]
+        },
+        {
+            "table_name": "sales",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 55586
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 54470
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 56124
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 55860
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 59494
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 67722
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 72375
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 55034
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 56892
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 58067
+                }
+            ]
+        },
+        {
+            "table_name": "clients",
+            "database_name": "cinemas",
+            "periods": [
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 8993
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 9409
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 9576
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 9514
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 9259
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 11635
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 11776
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 9138
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 8875
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 9466
                 }
             ]
         }

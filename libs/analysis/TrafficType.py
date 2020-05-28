@@ -88,20 +88,65 @@ class TrafficType(libs.analysis.AbstractAnalysis.AbstractAnalysis):
                 period_begin = table_results_collector[collected][1]["period_begin"]
                 period_end = table_results_collector[collected][1]["period_end"]
 
+
                 table_results["periods"].append({
                     "period_begin": period_begin,
                     "period_end": period_end,
-                    "min_selects": min_selects,
-                    "max_selects": max_selects,
-                    "min_inserts": min_inserts,
-                    "max_inserts": max_inserts,
-                    "min_updates": min_updates,
-                    "max_updates": max_updates,
-                    "min_deletes": min_deletes,
-                    "max_deletes": max_deletes,
-                    "min_inssels": min_inssels,
-                    "max_inssels": max_inssels
+                    "statements": [
+                            {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": min_selects
+                            },
+                            {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": min_inserts
+                            },
+                            {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": min_updates
+                            },
+                            {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": min_deletes
+                            },
+                            {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": min_inssels
+                            },
+
+                            {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": max_selects
+                            },
+                            {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": max_inserts
+                            },
+                            {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": max_updates
+                            },
+                            {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": max_deletes
+                            },
+                            {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": max_inssels
+                            }
+                    ]
                 })
+
             
             result["tables"].append(table_results)
         

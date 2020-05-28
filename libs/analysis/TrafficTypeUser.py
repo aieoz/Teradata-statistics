@@ -31,9 +31,13 @@ class TrafficTypeUser(libs.analysis.AbstractAnalysis.AbstractAnalysis):
             }
             sSQL = self.replace_sql(SQL, settings)
 
+            db_name = table_name.split(".")[0]
+            tb_name = table_name.split(".")[1]
+
             table_results = {
-                "table_name": table_name,
-                "statement_types": {}
+                "table_name": tb_name,
+                "database_name": db_name,
+                "statements": []
             }
 
             for time_id in pd.read_sql(sSQL, self.connection).values:
@@ -42,12 +46,8 @@ class TrafficTypeUser(libs.analysis.AbstractAnalysis.AbstractAnalysis):
                 user_name   = str(time_id[2])
                 uses        = int(time_id[3])
 
-                if statement_type not in table_results["statement_types"]:
-                    table_results["statement_types"][statement_type] = {
-                        "users": []
-                    }
-
-                table_results["statement_types"][statement_type]["users"].append({
+                table_results["statements"].append({
+                    "type": statement_type,
                     "user_id": user_id,
                     "user_name": user_name,
                     "uses": uses

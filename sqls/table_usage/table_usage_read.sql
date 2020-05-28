@@ -22,4 +22,4 @@ FROM
     AND table_name='$TABLE_NAME'
     GROUP BY period_begin, period_end, PERIOD_GROUP
 
-) AS temp;
+) AS temp ORDER BY period_begin;
