@@ -1,5 +1,5 @@
 SELECT measure_hour,
-sum(uses_total) as uses_total, 
+SUM(uses_total) as uses_total, 
 AVG(uses_total) as avg_uses, 
 MAX(uses_total) as max_uses 
 FROM $SYSTEM_DATABASE_NAME.daily_usage 
