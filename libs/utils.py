@@ -58,6 +58,9 @@ def get_begin_end(args, runtime_settings, settings):
         runtime_settings["end"] = date.today().strftime("%Y-%m-%d")
         runtime_settings["begin"] = (date.today() - timedelta(days=settings["default_period"])).strftime("%Y-%m-%d")
 
+    if runtime_settings["end"] < runtime_settings["begin"]:
+        argparse.ArgumentParser.exit(-1, "Początek musi być wcześniejszy niż koniec")
+
 def set_args(settings):
     # Program arguments
     parser = argparse.ArgumentParser(description='Zestaw analiz wykorzystania danych w systemie Teradata')

@@ -1,28 +1,29 @@
 import pandas as pd
-import libs.analysis.AbstractAnalysis
+import libs.analysis.libs.AbstractAnalysis
 
-class DailyUsage(libs.analysis.AbstractAnalysis.AbstractAnalysis):
+class DailyUsage(libs.analysis.libs.AbstractAnalysis.AbstractAnalysis):
     system_table = "daily_usage"
-    fill_table = "sqls/daily_usage/daily_usage.sql"
-    v_fill_table = None
+    fill_table = "collect_daily_usage"
+    v_create_table = None
+    v_table_name = None
 
     def __init__(self, settings):
-        super().__init__(settings, self.system_table, self.fill_table, self.v_fill_table)
+        super().__init__(settings, self)
     
     def read(self, table_names, begin, end):
+        # Export data to JSON
         result = {}
         result["operation"] = "Daily usage"
         result["begin"] = begin
         result["end"] = end
         result["tables"] = []
 
-        file = open('sqls/daily_usage/daily_usage_read.sql', mode="r")
+        file = open('sqls/read/daily_usage.sql', mode="r")
         SQL = file.read()
         file.close()
 
         for table_name in table_names:
             settings = {
-                "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
                 "DATABASE_NAME": table_name.split(".")[0],
                 "TABLE_NAME": table_name.split(".")[1],
                 "BEGIN": begin,

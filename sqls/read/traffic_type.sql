@@ -13,7 +13,7 @@ FROM
     SELECT CAST('$END' AS DATE) - (bgn * PERIOD_GROUP) AS period_end, 
     CAST('$END' AS DATE) - (bgn * (PERIOD_GROUP + 1)) AS period_begin,
     (CAST('$END' AS DATE)- MEASURE_DATE) / bgn AS PERIOD_GROUP, 
-    (CAST('$END' AS DATE) - CAST('$BEGIN' AS DATE)) / 10 AS bgn,
+    GREATEST((CAST('$END' AS DATE) - CAST('$BEGIN' AS DATE)) / 10, 1) AS bgn,
     scope,
     SUM(SelectOption) AS Selects,
     SUM(InsertOption) AS Inserts,
@@ -21,7 +21,7 @@ FROM
     SUM(DeleteOption) AS Deletes,
     SUM(InsSelOption) AS InsSels
 
-    FROM $SYSTEM_DATABASE_NAME.traffic_type 
+    FROM TDSP_ANALYSIS.traffic_type 
     WHERE MEASURE_DATE 
     BETWEEN CAST('$BEGIN' AS DATE) 
     AND CAST('$END' AS DATE)

@@ -10,10 +10,10 @@ FROM
     SELECT CAST('$END' AS DATE) - (bgn * PERIOD_GROUP) AS period_end, 
     CAST('$END' AS DATE) - (bgn * (PERIOD_GROUP + 1)) AS period_begin,
     (CAST('$END' AS DATE)- MEASURE_DATE) / bgn AS PERIOD_GROUP, 
-    (CAST('$END' AS DATE) - CAST('$BEGIN' AS DATE)) / 10 AS bgn,
+    GREATEST((CAST('$END' AS DATE) - CAST('$BEGIN' AS DATE)) / 10, 1) AS bgn,
     SUM(uses_total) AS total
 
-    FROM $SYSTEM_DATABASE_NAME.table_usage 
+    FROM TDSP_ANALYSIS.table_usage 
     WHERE MEASURE_DATE 
     BETWEEN CAST('$BEGIN' AS DATE) 
     AND CAST('$END' AS DATE)

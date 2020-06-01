@@ -1,29 +1,29 @@
 import pandas as pd
-import libs.analysis.AbstractAnalysis
-import libs.analysis.PreCreator
+import libs.analysis.libs.AbstractAnalysis
 
-class TrafficTypeUser(libs.analysis.AbstractAnalysis.AbstractAnalysis):
+class TrafficTypeUser(libs.analysis.libs.AbstractAnalysis.AbstractAnalysis):
     system_table = "traffic_type_user"
-    fill_table = "sqls/traffic_type_user/traffic_type_user.sql"
-    v_fill_table = "sqls/traffic_type_user/volatile_fill.sql"
+    fill_table = "collect_traffic_type_user"
+    v_create_table = "collect_traffic_type_user_create_volatile"
+    v_table_name = "v_traffic_type_user"
 
     def __init__(self, settings):
-        super().__init__(settings, self.system_table, self.fill_table, self.v_fill_table)
+        super().__init__(settings, self)
 
     def read(self, table_names, begin, end):
+        # Export data to JSON
         result = {}
         result["operation"] = "Traffic type with user info"
         result["begin"] = begin
         result["end"] = end
         result["tables"] = []
 
-        file = open('sqls/traffic_type_user/traffic_type_user_read.sql', mode="r")
+        file = open('sqls/read/traffic_type_user.sql', mode="r")
         SQL = file.read()
         file.close()
 
         for table_name in table_names:
             settings = {
-                "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
                 "DATABASE_NAME": table_name.split(".")[0],
                 "TABLE_NAME": table_name.split(".")[1],
                 "BEGIN": begin,

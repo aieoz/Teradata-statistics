@@ -96,7 +96,7 @@ INSERT INTO TDSP_ANALYSIS.system_hours (HOUR_ID) VALUES (23);
     ------------------------------------------- 
 CREATE MACRO TDSP_ANALYSIS.collect_daily_usage
 (
-       database_name 	VARCHAR(128),
+       dba_name      	VARCHAR(128),
        table_name 		VARCHAR(128),
        col_day  		DATE FORMAT 'YYYY-MM-DD'
 )
@@ -109,7 +109,7 @@ AS
 		SELECT :col_day AS t_measure_date, 
 		 SYSHOURS.HOUR_ID as t_measure_hour,
 		 :table_name as t_table_name, 
-	     :database_name as t_database_name,
+	     :dba_name as t_database_name,
 		 CASE 
 		  	WHEN :col_day<CURRENT_TIMESTAMP THEN 1
 		 ELSE 0
@@ -121,9 +121,9 @@ AS
 			SELECT EXTRACT(HOUR FROM CollectTimeStamp)
 			AS "DHOUR", COUNT(QueryID) AS TOTAL FROM DBC.DBQLObjTbl 
 			GROUP BY DHOUR
-			WHERE LOWER(ObjectTableName)=LOWER(:database_name)
+			WHERE LOWER(ObjectTableName)=LOWER(:table_name)
 			AND ObjectType='Tab'
-			AND LOWER(ObjectDatabaseName)=LOWER(:table_name)
+			AND LOWER(ObjectDatabaseName)=LOWER(:dba_name)
 			AND CollectTimeStamp=:col_day
 		) AS LOGS ON DHOUR = HOUR_ID
 	
@@ -143,7 +143,7 @@ AS
     -------------------------------------------
 CREATE MACRO TDSP_ANALYSIS.collect_tables_usage
 (
-       database_name 	VARCHAR(128),
+       dba_name 	    VARCHAR(128),
        table_name 		VARCHAR(128),
        col_day  		DATE FORMAT 'YYYY-MM-DD'
 )
@@ -155,16 +155,16 @@ AS
         SELECT 
         :col_day AS t_measure_date,
         :table_name AS t_table_name,
-        :database_name AS t_database_name,
+        :dba_name AS t_database_name,
         CASE 
             WHEN CAST(:col_day AS DATE)<CURRENT_TIMESTAMP THEN 1
         ELSE 0
             END AS t_complete,
         ZEROIFNULL(COUNT(*)) AS t_uses_total
         FROM DBC.DBQLObjTbl
-        WHERE LOWER(ObjectTableName)=LOWER(:database_name)
+        WHERE LOWER(ObjectTableName)=LOWER(:table_name)
         AND ObjectType='Tab'
-        AND LOWER(ObjectDatabaseName)=LOWER(:table_name)
+        AND LOWER(ObjectDatabaseName)=LOWER(:dba_name)
         AND CollectTimeStamp=:col_day
 
     ) AS t_
@@ -177,148 +177,6 @@ AS
         INSERT (measure_date, database_name, table_name, complete, uses_total)
         VALUES (t_measure_date, t_database_name, t_table_name, t_complete, t_uses_total);
 );
-
-    -------------------------------------------
-    ------------- COLLECT INSERTS -------------
-    -------------------------------------------
-CREATE VOLATILE TABLE v_inserts
-(
-        QueryID BIGINT,
-        CollectTimeStamp TIMESTAMP,
-        ObjectTableName VARCHAR(128),
-        IsInsert BYTEINT,
-        HasInsert BYTEINT
-) ON COMMIT PRESERVE ROWS;
-
-CREATE MACRO TDSP_ANALYSIS.collect_inserts_create_volatile
-AS
-(
-    ---------------------------------
-    ----- CREATE VOLATILE TABLE -----
-    ---------------------------------
-    CREATE VOLATILE TABLE v_inserts
-    (
-            QueryID BIGINT,
-            CollectTimeStamp TIMESTAMP,
-            ObjectTableName VARCHAR(128),
-            IsInsert BYTEINT,
-            HasInsert BYTEINT
-    ) ON COMMIT PRESERVE ROWS;
-
-);
-
-CREATE MACRO TDSP_ANALYSIS.collect_inserts_drop_volatile
-AS
-(
-    DROP TABLE v_inserts;
-);
-
-CREATE MACRO TDSP_ANALYSIS.collect_inserts
-(
-       database_name 	VARCHAR(128),
-       table_name 		VARCHAR(128),
-       col_day  		DATE FORMAT 'YYYY-MM-DD'
-)
-AS
-(
-
-    ---------------------------------
-    -----  FILL VOLATILE TABLE  -----
-    ---------------------------------
-    INSERT INTO dbc.v_inserts
-    (
-        QueryID, 
-        CollectTimeStamp,
-        ObjectTablename,
-        IsInsert,
-        HasInsert
-    ) SELECT l_QueryID,
-        CollectTimeStamp as l_CollectTimeStamp,
-        ObjectTableName AS l_ObjectTableName,
-        -- Is insert
-        CASE  
-            WHEN Statements=1 THEN 
-            CASE
-            WHEN StatementGroup LIKE '%Insert%'
-            THEN 1
-            ELSE 0
-            END
-            ELSE 0
-        END AS IsInsert,
-    
-        -- Has insert
-        CASE  
-            WHEN Statements>1 THEN
-            CASE 
-            WHEN StatementGroup LIKE 'DML%'
-            THEN 
-                CASE 
-                WHEN CAST(REGEXP_REPLACE(REGEXP_REPLACE(StatementGroup, '^.*Ins=', ''), ' .*', '') AS INT) > 1
-                THEN 1
-                ELSE 0
-                END
-            ELSE 0
-            END
-            ELSE 0
-        END AS HasInsert
-        
-        FROM 
-        (
-            SELECT QueryID AS l_QueryID,
-                CollectTimeStamp, 
-                StatementType,
-                Statements,
-                StatementGroup
-            FROM DBC.DBQLogTbl 
-            WHERE CollectTimeStamp=:col_day
-        ) AS logs JOIN
-        (
-            SELECT QueryID AS o_QueryID, ObjectTableName, ObjectDatabaseName FROM DBC.DBQLObjTbl 
-            WHERE 
-            LOWER(ObjectTableName)=LOWER(:table_name)
-            AND LOWER(ObjectDatabaseName)=LOWER(:database_name)
-            AND CollectTimeStamp=:col_day
-        )
-        AS objsts
-    ON o_QueryID=l_QueryID;
-
-    ---------------------------------
-    -----    FILL MAIN TABLE    -----
-    ---------------------------------
-    MERGE INTO TDSP_ANALYSIS.inserts as inserts USING
-    (
-
-        SELECT :col_day as t_measure_date,
-                :table_name as t_table_name,
-                :database_name as t_database_name,
-                CASE 
-                        WHEN :col_day<CURRENT_TIMESTAMP THEN 1
-                ELSE 0
-                        END AS t_complete,
-
-                ZEROIFNULL(s_insert_single) AS t_insert_single,
-                ZEROIFNULL(s_insert_group) AS t_insert_group
-        FROM (
-                SELECT
-                    SUM(IsInsert) AS s_insert_single,
-                    SUM(HasInsert) AS s_insert_group
-                FROM dbc.v_inserts GROUP BY ObjectTableName
-        ) AS volatile_reference RIGHT OUTER JOIN 
-        (
-            SELECT 0 as fullview
-        ) AS operation_types ON 1=1
-
-    ) AS t_
-    ON measure_date=t_measure_date AND  table_name=t_table_name AND database_name=t_database_name
-
-    WHEN MATCHED THEN
-        UPDATE SET complete=t_complete, insert_single = t_insert_single, insert_group = t_insert_group
-    WHEN NOT MATCHED THEN
-        INSERT (measure_date, database_name, table_name, complete, insert_single, insert_group)
-        VALUES (t_measure_date, t_database_name, t_table_name, t_complete, t_insert_single, t_insert_group);
-
-);
-DROP TABLE v_inserts;
 
     -------------------------------------------
     ---------- COLLECT TRAFFIC TYPE -----------
@@ -359,15 +217,9 @@ AS
 
 );
 
-CREATE MACRO TDSP_ANALYSIS.collect_traffic_type_drop_volatile
-AS
-(
-    DROP TABLE v_traffic_type;
-);
-
 CREATE MACRO TDSP_ANALYSIS.collect_traffic_type
 (
-       database_name 	VARCHAR(128),
+       dba_name 	    VARCHAR(128),
        table_name 		VARCHAR(128),
        col_day  		DATE FORMAT 'YYYY-MM-DD'
 )
@@ -486,6 +338,7 @@ AS
                 StatementGroup
             FROM DBC.DBQLogTbl 
             WHERE CollectTimeStamp=:col_day
+            AND ErrorCode=0
 
         ) AS logs 
         JOIN
@@ -494,7 +347,7 @@ AS
             SELECT QueryID AS o_QueryID, ObjectTableName, ObjectDatabaseName FROM DBC.DBQLObjTbl 
             WHERE 
             LOWER(ObjectTableName)=LOWER(:table_name)
-            AND LOWER(ObjectDatabaseName)=LOWER(:database_name)
+            AND LOWER(ObjectDatabaseName)=LOWER(:dba_name)
             AND CollectTimeStamp=:col_day
 
         )AS objsts
@@ -508,7 +361,7 @@ AS
 
         SELECT :col_day as t_measure_date,
                 :table_name as t_table_name,
-                :database_name as t_database_name,
+                :dba_name as t_database_name,
                 CASE 
                         WHEN :col_day<CURRENT_TIMESTAMP THEN 1
                 ELSE 0
@@ -551,12 +404,12 @@ AS
 );
 
 DROP TABLE v_traffic_type;
-DROP TABLE v_traffic_type;
 
 
     -------------------------------------------
     -----  COLLECT TRAFFIC TYPE AND USER ------
     -------------------------------------------
+
 CREATE VOLATILE TABLE v_traffic_type_user
 (
         QueryID BIGINT,
@@ -585,15 +438,9 @@ AS
 
 );
 
-CREATE MACRO TDSP_ANALYSIS.collect_traffic_type_user_drop_volatile
-AS
-(
-    DROP TABLE v_traffic_type_user;
-);
-
 CREATE MACRO TDSP_ANALYSIS.collect_traffic_type_user
 (
-       database_name 	VARCHAR(128),
+       dba_name 	    VARCHAR(128),
        table_name 		VARCHAR(128),
        col_day  		DATE FORMAT 'YYYY-MM-DD'
 )
@@ -627,6 +474,7 @@ AS
                 StatementType
             FROM DBC.DBQLogTbl 
             WHERE CollectTimeStamp=:col_day
+            AND ErrorCode=0
 
         ) AS logs 
         JOIN
@@ -634,8 +482,8 @@ AS
 
             SELECT QueryID AS o_QueryID, ObjectTableName, ObjectDatabaseName FROM DBC.DBQLObjTbl 
             WHERE 
-            LOWER(ObjectTableName)=LOWER('$TABLE_NAME')
-            AND LOWER(ObjectDatabaseName)=LOWER('$DATABASE_NAME')
+            LOWER(ObjectTableName)=LOWER(:table_name)
+            AND LOWER(ObjectDatabaseName)=LOWER(:dba_name)
             AND CollectTimeStamp=:col_day
 
         )AS objsts
@@ -650,7 +498,7 @@ AS
 
         SELECT t_measure_date,
                 :table_name as t_table_name,
-                :database_name as t_database_name,
+                :dba_name as t_database_name,
                 CASE 
                         WHEN :col_day<CURRENT_TIMESTAMP THEN 1
                 ELSE 0
@@ -677,7 +525,7 @@ AS
         RIGHT OUTER JOIN 
 
         (
-            SELECT '$DAY' AS t_measure_date
+            SELECT :col_day AS t_measure_date
         ) AS operation_types ON t_measure_date=t_measure_date
 
 
@@ -694,12 +542,8 @@ AS
 );
 DROP TABLE v_traffic_type_user;
 
--- MACRO TDSP_ANALYSIS.collect_daily_usage;
+-- DROP MACRO TDSP_ANALYSIS.collect_daily_usage;
 -- DROP MACRO TDSP_ANALYSIS.collect_tables_usage;
--- DROP MACRO TDSP_ANALYSIS.collect_inserts;
--- DROP MACRO TDSP_ANALYSIS.collect_inserts_create_volatile;
--- DROP MACRO TDSP_ANALYSIS.collect_inserts_action;
--- DROP MACRO TDSP_ANALYSIS.collect_inserts_drop_volatile;
 -- DROP MACRO TDSP_ANALYSIS.collect_traffic_type_create_volatile;
 -- DROP MACRO TDSP_ANALYSIS.collect_traffic_type_drop_volatile;
 -- DROP MACRO TDSP_ANALYSIS.collect_traffic_type;

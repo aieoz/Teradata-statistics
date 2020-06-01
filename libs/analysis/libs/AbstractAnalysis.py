@@ -1,17 +1,23 @@
 import pandas as pd
-import libs.analysis.PreCreator
 
 class AbstractAnalysis:
     
-    def __init__(self, settings, system_table, fill_table, v_fill_table):
+    def __init__(self, settings, child):
         self.connection = None
         self.settings = settings
-        self.system_table = system_table
-        self.fill_table = fill_table
-        self.v_fill_table = v_fill_table
+        self.system_table = child.system_table
+        # Main processing macro
+        self.fill_table = child.fill_table
+        # Creating volatile table macro
+        self.v_create_table = child.v_create_table
+        self.v_table_name = child.v_table_name
 
     def set_connection(self, connection):
         self.connection = connection
+
+        # Create, specific for analysis, volatile table
+        if self.v_create_table:
+            self.connection.execute("EXEC TDSP_ANALYSIS." + self.v_create_table + ";")
     
     def test_connection(self):
         if self.connection == None:
@@ -41,7 +47,6 @@ class AbstractAnalysis:
         settings = {
             "BEGIN": begin,
             "END": end,
-            "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
             "SYSTEM_TABLE_NAME": self.system_table,
             "TABLE_NAME": tb_name,
             "DATABASE_NAME": db_name
@@ -59,23 +64,14 @@ class AbstractAnalysis:
     def update(self, table, date):
         self.test_connection()
 
-        file = open(self.fill_table, mode="r")
-        SQL = file.read()
-        file.close()
-
         db_name = table.split(".")[0]
         tb_name = table.split(".")[1]
+        macro = self.fill_table
 
-        settings = {
-            "DAY": date,
-            "DATABASE_NAME": db_name,
-            "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
-            "TABLE_NAME": tb_name
-        }
+        SQL = f"EXEC TDSP_ANALYSIS.{macro}('{db_name}', '{tb_name}', '{date}');"
 
-        # Skipped if no volatile table is declared
-        if self.v_fill_table:
-            libs.analysis.PreCreator.PreCreator.fill(self.connection, date, db_name, tb_name, self.v_fill_table)
-
-        SQL = self.replace_sql(SQL, settings)
         self.connection.execute(SQL)
+
+        if self.v_create_table:
+            self.connection.execute("DELETE FROM " + self.v_table_name + ";")
+

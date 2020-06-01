@@ -1,29 +1,29 @@
 import pandas as pd
-import libs.analysis.AbstractAnalysis
-import libs.analysis.PreCreator
+import libs.analysis.libs.AbstractAnalysis
 
-class Inserts(libs.analysis.AbstractAnalysis.AbstractAnalysis):
-    system_table = "inserts"
-    fill_file = "sqls/inserts/inserts.sql"
-    v_fill_table = "sqls/inserts/volatile_fill.sql"
+class Inserts(libs.analysis.libs.AbstractAnalysis.AbstractAnalysis):
+    system_table = "traffic_type"
+    fill_table = "collect_traffic_type"
+    v_create_table = "collect_traffic_type_create_volatile"
+    v_table_name = "v_traffic_type"
 
     def __init__(self, settings):
-        super().__init__(settings, self.system_table, self.fill_file, self.v_fill_table)
-
+        super().__init__(settings, self)
+    
     def read(self, table_names, begin, end):
+        # Export data to JSON
         result = {}
-        result["operation"] = "Traffic type with user info"
+        result["operation"] = "Traffic type"
         result["begin"] = begin
         result["end"] = end
         result["tables"] = []
 
-        file = open('sqls/inserts/inserts_read.sql', mode="r")
+        file = open('sqls/read/inserts.sql', mode="r")
         SQL = file.read()
         file.close()
 
         for table_name in table_names:
             settings = {
-                "SYSTEM_DATABASE_NAME": self.settings["analysis_database"],
                 "DATABASE_NAME": table_name.split(".")[0],
                 "TABLE_NAME": table_name.split(".")[1],
                 "BEGIN": begin,
@@ -37,21 +37,47 @@ class Inserts(libs.analysis.AbstractAnalysis.AbstractAnalysis):
             table_results = {
                 "table_name": tb_name,
                 "database_name": db_name,
-                "days": []
+                "periods": []
             }
+            table_results_collector = {}
 
             for time_id in pd.read_sql(sSQL, self.connection).values:
-                date            = str(time_id[0])
-                insert_single   = int(time_id[1])
-                insert_group    = int(time_id[2])
+                period_begin = time_id[0]
+                scope = int(time_id[1])
+                inserts = int(time_id[2])
 
-                table_results["days"].append({
-                    "measure_date": date,
-                    "inserts_min": insert_single,
-                    "inserts_max": insert_single + insert_group
+                if not period_begin in table_results_collector:
+                    table_results_collector[period_begin] = {}
+                
+                if not scope in table_results_collector[period_begin]:
+                    table_results_collector[period_begin][scope] = {}
+
+                table_results_collector[period_begin][scope] = {
+                    "date": period_begin,
+                    "inserts": inserts,
+                }
+
+            for collected in table_results_collector:
+                min_inserts = table_results_collector[collected][1]["inserts"]
+                max_inserts = min_inserts + table_results_collector[collected][0]["inserts"]
+
+                table_results["periods"].append({
+                    "date": str(table_results_collector[collected][0]["date"]),
+                    "statements": [
+                            {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": min_inserts
+                            },
+                            {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": max_inserts
+                            }
+                    ]
                 })
+
             
             result["tables"].append(table_results)
-
         
         return result
