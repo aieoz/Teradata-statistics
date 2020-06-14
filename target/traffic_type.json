@@ -1,25 +1,25 @@
 {
     "operation": "Traffic type",
-    "begin": "2020-04-14",
-    "end": "2020-04-14",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
-            "table_name": "actors",
+            "table_name": "rentals",
             "database_name": "movies",
             "periods": [
                 {
-                    "period_begin": "2020-04-13",
-                    "period_end": "2020-04-14",
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
                     "statements": [
                         {
                             "statement_type": "select",
                             "type": "min",
-                            "value": 3290
+                            "value": 0
                         },
                         {
                             "statement_type": "insert",
                             "type": "min",
-                            "value": 0
+                            "value": 423
                         },
                         {
                             "statement_type": "update",
@@ -39,12 +39,516 @@
                         {
                             "statement_type": "select",
                             "type": "max",
-                            "value": 3290
+                            "value": 0
                         },
                         {
                             "statement_type": "insert",
                             "type": "max",
+                            "value": 846
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
                             "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 366
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 732
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 442
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 884
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 563
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 1126
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 337
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 674
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 433
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 866
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 159
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 318
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 335
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 670
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 389
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 828
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "statements": [
+                        {
+                            "statement_type": "select",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 386
+                        },
+                        {
+                            "statement_type": "update",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "delete",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "inssel",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "select",
+                            "type": "max",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 772
                         },
                         {
                             "statement_type": "update",

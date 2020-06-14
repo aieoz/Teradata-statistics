@@ -11,6 +11,7 @@ os.environ['ODBCINST'] = settings["odbc_location"] + "ODBC_64/odbcinst.ini"
 os.environ['ODBCINI'] = settings["odbc_location"] + "ODBC_64/odbc.ini"
 os.environ['LD_LIBRARY_PATH'] = settings["odbc_location"] + "16.20/lib:" + settings["odbc_location"] + "16.20/lib64:" + os.environ.get('LD_LIBRARY_PATH', '')
 
+# Read password from stdin
 password = getpass.getpass()
 settings["password"] = password
 args = libs.utils.set_args(settings)
@@ -22,10 +23,10 @@ runtime_settings["all_analysis"]        = {}
 runtime_settings["analysis"]            = {}
 source_to_target                        = {}
 
-
+# Read analysis period begin and end from program arguments or settings.json
 libs.utils.get_begin_end(args, runtime_settings, settings)
 
-
+# Read list of analysis from settings.json
 for an in settings["analysis"]:
     source_to_target[an["short"]] = an["target"]
 
@@ -35,7 +36,7 @@ for an in settings["analysis"]:
     runtime_settings["all_analysis"][an["short"]] = []
     runtime_settings["all_analysis"][an["short"]] = an.get("default_tables", [])
 
-# Analysis to perform
+# Create list of analysis to perform
 if args.A:
     for an in args.A:
         if not an in runtime_settings["all_analysis"]:
@@ -45,7 +46,7 @@ else:
     runtime_settings["analysis"] = runtime_settings["enabled_analysis"]
 
 
-# Tables to process
+# Create list of tables to process
 if args.T:
     runtime_settings["tables"] = args.T
 
@@ -56,6 +57,7 @@ else:
     for an in runtime_settings["analysis"]:
         runtime_settings["analysis"][an] = runtime_settings["all_analysis"][an]
 
+# Print analysis details
 print("Poczatek czasu analizy:  ", runtime_settings["begin"])
 print("Koniec czasu analizy:    ", runtime_settings["end"])
 print("Analizy:                 ")
@@ -65,7 +67,7 @@ for an in runtime_settings["analysis"]:
 
 print("\n\nUpdating missing analysis: ")
 
-# Create database connection
+# Init database connection
 with libs.utils.create_session(settings["database_user"], settings["password"], settings["database_host"]) as session:
 
     analysis_objects = {}
@@ -89,14 +91,15 @@ with libs.utils.create_session(settings["database_user"], settings["password"], 
             # Each missing day
             for day in days:
                 print(an, ":", table_name, ", ", day)
+
+                # Run update
                 new_one.update(table_name, day)
 
 
         # Read results
         results = new_one.read(runtime_settings["analysis"][an], runtime_settings["begin"], runtime_settings["end"])
 
+        # Export results to json
         with open(source_to_target[an], 'w') as file:
             json.dump(results, file, indent = 4)
-        
 
-# print(runtime_settings)

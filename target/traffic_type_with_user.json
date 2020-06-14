@@ -1,17 +1,23 @@
 {
     "operation": "Traffic type with user info",
-    "begin": "2020-04-14",
-    "end": "2020-04-14",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
-            "table_name": "actors",
+            "table_name": "rentals",
             "database_name": "movies",
             "statements": [
                 {
                     "type": "Select",
-                    "user_id": 256,
-                    "user_name": "DBC",
-                    "uses": 3290
+                    "user_id": 4292804608,
+                    "user_name": "system",
+                    "uses": 582209
+                },
+                {
+                    "type": "Insert",
+                    "user_id": 4292804608,
+                    "user_name": "system",
+                    "uses": 582209
                 }
             ]
         }

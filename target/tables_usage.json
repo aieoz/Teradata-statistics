@@ -1,16 +1,61 @@
 {
     "operation": "Table usage",
-    "begin": "2020-04-14",
-    "end": "2020-04-14",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
-            "table_name": "actors",
+            "table_name": "temp",
             "database_name": "movies",
             "periods": [
                 {
-                    "period_begin": "2020-04-13",
-                    "period_end": "2020-04-14",
-                    "total": 635
+                    "period_begin": "2019-11-01",
+                    "period_end": "2019-11-07",
+                    "total": 151166
+                },
+                {
+                    "period_begin": "2019-11-07",
+                    "period_end": "2019-11-13",
+                    "total": 33098
+                },
+                {
+                    "period_begin": "2019-11-13",
+                    "period_end": "2019-11-19",
+                    "total": 8552
+                },
+                {
+                    "period_begin": "2019-11-19",
+                    "period_end": "2019-11-25",
+                    "total": 0
+                },
+                {
+                    "period_begin": "2019-11-25",
+                    "period_end": "2019-12-01",
+                    "total": 0
+                },
+                {
+                    "period_begin": "2019-12-01",
+                    "period_end": "2019-12-07",
+                    "total": 0
+                },
+                {
+                    "period_begin": "2019-12-07",
+                    "period_end": "2019-12-13",
+                    "total": 0
+                },
+                {
+                    "period_begin": "2019-12-13",
+                    "period_end": "2019-12-19",
+                    "total": 0
+                },
+                {
+                    "period_begin": "2019-12-19",
+                    "period_end": "2019-12-25",
+                    "total": 0
+                },
+                {
+                    "period_begin": "2019-12-25",
+                    "period_end": "2019-12-31",
+                    "total": 0
                 }
             ]
         }

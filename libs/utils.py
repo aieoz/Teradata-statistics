@@ -15,6 +15,7 @@ from dateutil.relativedelta import relativedelta
 
 
 def create_session(username, password, host):
+    # Init databse connection
     udaExec = teradata.UdaExec(appName="SQL shell", version="1.0", logConsole=False, odbcLibPath="/opt/teradata/client/ODBC_64/lib/libodbc.so")
     connection = udaExec.connect(method="odbc", system=host,username=username,password=password)
     return connection
@@ -30,7 +31,7 @@ def is_date(text):
     return pattern.match(text)
 
 def get_begin_end(args, runtime_settings, settings):
-    # Calc begin and end of analysis
+    # Calc period begin and end of analysis 
     if args.Tp:
 
         # Validate date format
@@ -62,7 +63,7 @@ def get_begin_end(args, runtime_settings, settings):
         argparse.ArgumentParser.exit(-1, "Początek musi być wcześniejszy niż koniec")
 
 def set_args(settings):
-    # Program arguments
+    # Init program arguments
     parser = argparse.ArgumentParser(description='Zestaw analiz wykorzystania danych w systemie Teradata')
     parser.add_argument('-AL', action='store_true', help='Lista dostepnych analiz', required=False)
     parser.add_argument('-A', type=str, nargs="+", help='Lista analiz do wykonania', required=False)
@@ -106,6 +107,7 @@ def analysis_mapper(name, settings):
         raise Exception("Unknown analysis " + name)
 
 def check_table_name(connection, table):
+    # Check if table with name "table" exist
     if not "." in table:
         raise Exception("Invalid table name format: " + table)
 

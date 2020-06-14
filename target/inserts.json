@@ -1,14 +1,14 @@
 {
     "operation": "Traffic type",
-    "begin": "2020-04-14",
-    "end": "2020-05-14",
+    "begin": "2019-11-01",
+    "end": "2019-12-31",
     "tables": [
         {
-            "table_name": "actors",
+            "table_name": "ranking",
             "database_name": "movies",
             "periods": [
                 {
-                    "date": "2020-04-14",
+                    "date": "2019-11-01",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -23,7 +23,22 @@
                     ]
                 },
                 {
-                    "date": "2020-04-15",
+                    "date": "2019-11-02",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 12500
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 25000
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-11-03",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -38,7 +53,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-16",
+                    "date": "2019-11-04",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -53,7 +68,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-17",
+                    "date": "2019-11-05",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -68,7 +83,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-18",
+                    "date": "2019-11-06",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -83,7 +98,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-19",
+                    "date": "2019-11-07",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -98,7 +113,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-20",
+                    "date": "2019-11-08",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -113,7 +128,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-21",
+                    "date": "2019-11-09",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -128,7 +143,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-22",
+                    "date": "2019-11-10",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -143,7 +158,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-23",
+                    "date": "2019-11-11",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -158,7 +173,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-24",
+                    "date": "2019-11-12",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -173,7 +188,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-25",
+                    "date": "2019-11-13",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -188,7 +203,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-26",
+                    "date": "2019-11-14",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -203,7 +218,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-27",
+                    "date": "2019-11-15",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -218,7 +233,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-28",
+                    "date": "2019-11-16",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -233,7 +248,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-29",
+                    "date": "2019-11-17",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -248,7 +263,7 @@
                     ]
                 },
                 {
-                    "date": "2020-04-30",
+                    "date": "2019-11-18",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -263,7 +278,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-01",
+                    "date": "2019-11-19",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -278,7 +293,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-02",
+                    "date": "2019-11-20",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -293,7 +308,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-03",
+                    "date": "2019-11-21",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -308,7 +323,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-04",
+                    "date": "2019-11-22",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -323,7 +338,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-05",
+                    "date": "2019-11-23",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -338,7 +353,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-06",
+                    "date": "2019-11-24",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -353,7 +368,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-07",
+                    "date": "2019-11-25",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -368,7 +383,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-08",
+                    "date": "2019-11-26",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -383,7 +398,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-09",
+                    "date": "2019-11-27",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -398,7 +413,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-10",
+                    "date": "2019-11-28",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -413,7 +428,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-11",
+                    "date": "2019-11-29",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -428,7 +443,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-12",
+                    "date": "2019-11-30",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -443,7 +458,7 @@
                     ]
                 },
                 {
-                    "date": "2020-05-13",
+                    "date": "2019-12-01",
                     "statements": [
                         {
                             "statement_type": "insert",
@@ -458,7 +473,442 @@
                     ]
                 },
                 {
-                    "date": "2020-05-14",
+                    "date": "2019-12-02",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 12700
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 25400
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-03",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-04",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-05",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-06",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-07",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-08",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-09",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-10",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-11",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-12",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-13",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-14",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-15",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-16",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-17",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-18",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-19",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-20",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-21",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-22",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-23",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-24",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-25",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-26",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-27",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-28",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-29",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-30",
+                    "statements": [
+                        {
+                            "statement_type": "insert",
+                            "type": "min",
+                            "value": 0
+                        },
+                        {
+                            "statement_type": "insert",
+                            "type": "max",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "date": "2019-12-31",
                     "statements": [
                         {
                             "statement_type": "insert",

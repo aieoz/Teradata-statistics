@@ -10,3 +10,4 @@ WHERE calendar_date<=cast('$END' as DATE)
 AND calendar_date>=cast('$BEGIN' as DATE)
 AND
 (complete=0 OR complete IS NULL);
+
